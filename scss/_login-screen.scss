@@ -1,0 +1,10 @@
+@import 'mixins';
+@import 'variables';
+
+
+h1{
+    color: $base-color;
+}
+h2{
+    padding: 1;
+}
