@@ -1,0 +1,356 @@
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T09:46:15.671Z"}
+{"level":"info","message":"development","timestamp":"2019-04-10T09:46:15.671Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T09:47:52.958Z"}
+{"level":"info","message":"development","timestamp":"2019-04-10T09:47:52.959Z"}
+{"level":"info","message":"","timestamp":"2019-04-10T09:47:52.959Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T09:48:06.999Z"}
+{"level":"info","message":"development","timestamp":"2019-04-10T09:48:07.000Z"}
+{"level":"info","message":"","timestamp":"2019-04-10T09:48:07.000Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T09:48:17.328Z"}
+{"level":"info","message":"development","timestamp":"2019-04-10T09:48:17.329Z"}
+{"level":"info","message":"","timestamp":"2019-04-10T09:48:17.329Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T09:49:00.743Z"}
+{"level":"info","message":"development","timestamp":"2019-04-10T09:49:00.743Z"}
+{"level":"info","message":"","timestamp":"2019-04-10T09:49:00.744Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T09:51:29.323Z"}
+{"level":"info","message":"development","timestamp":"2019-04-10T09:51:29.324Z"}
+{"level":"info","message":"","timestamp":"2019-04-10T09:51:29.324Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T09:52:48.592Z"}
+{"level":"info","message":"development","timestamp":"2019-04-10T09:52:48.592Z"}
+{"level":"info","message":"","timestamp":"2019-04-10T09:52:48.593Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T09:53:12.381Z"}
+{"level":"info","message":"development","timestamp":"2019-04-10T09:53:12.394Z"}
+{"level":"info","message":"","timestamp":"2019-04-10T09:53:12.394Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T09:55:38.226Z"}
+{"level":"info","message":"development","timestamp":"2019-04-10T09:55:38.227Z"}
+{"level":"info","message":"","timestamp":"2019-04-10T09:55:38.227Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T09:59:21.493Z"}
+{"level":"info","message":"development","timestamp":"2019-04-10T09:59:21.494Z"}
+{"level":"info","message":"","timestamp":"2019-04-10T09:59:21.494Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T10:03:37.888Z"}
+{"level":"info","message":"development","timestamp":"2019-04-10T10:03:37.889Z"}
+{"level":"info","message":"","timestamp":"2019-04-10T10:03:37.889Z"}
+{"level":"info","message":"Connected to database: hangman on host: localhost with mongoDB server ...","timestamp":"2019-04-10T10:03:37.908Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T10:05:03.537Z"}
+{"level":"info","message":"development","timestamp":"2019-04-10T10:05:03.538Z"}
+{"level":"info","message":"","timestamp":"2019-04-10T10:05:03.538Z"}
+{"level":"info","message":"Connected to database: hangman on host: localhost with mongoDB server ...","timestamp":"2019-04-10T10:05:03.555Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T10:12:34.496Z"}
+{"level":"info","message":"development","timestamp":"2019-04-10T10:12:34.496Z"}
+{"level":"info","message":"","timestamp":"2019-04-10T10:12:34.496Z"}
+{"level":"info","message":"Connected to database: hangman on host: localhost with mongoDB server ...","timestamp":"2019-04-10T10:12:34.511Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T12:19:47.575Z"}
+{"level":"info","message":"development","timestamp":"2019-04-10T12:19:47.576Z"}
+{"level":"info","message":"","timestamp":"2019-04-10T12:19:47.576Z"}
+{"level":"info","message":"Connected to database: hangman on host: localhost with mongoDB server ...","timestamp":"2019-04-10T12:19:47.589Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T12:20:13.651Z"}
+{"level":"info","message":"development","timestamp":"2019-04-10T12:20:13.652Z"}
+{"level":"info","message":"","timestamp":"2019-04-10T12:20:13.652Z"}
+{"level":"info","message":"Connected to database: hangman on host: localhost with mongoDB server ...","timestamp":"2019-04-10T12:20:13.666Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T12:20:57.140Z"}
+{"level":"info","message":"development","timestamp":"2019-04-10T12:20:57.141Z"}
+{"level":"info","message":"","timestamp":"2019-04-10T12:20:57.141Z"}
+{"level":"info","message":"Connected to database: hangman on host: localhost with mongoDB server ...","timestamp":"2019-04-10T12:20:57.159Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T12:21:23.480Z"}
+{"level":"info","message":"development","timestamp":"2019-04-10T12:21:23.481Z"}
+{"level":"info","message":"1234","timestamp":"2019-04-10T12:21:23.481Z"}
+{"level":"info","message":"Connected to database: hangman on host: localhost with mongoDB server ...","timestamp":"2019-04-10T12:21:23.496Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T12:21:34.950Z"}
+{"level":"info","message":"development","timestamp":"2019-04-10T12:21:34.950Z"}
+{"level":"info","message":"1234","timestamp":"2019-04-10T12:21:34.951Z"}
+{"level":"info","message":"Connected to database: hangman on host: localhost with mongoDB server ...","timestamp":"2019-04-10T12:21:34.976Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T12:22:30.251Z"}
+{"level":"info","message":"development","timestamp":"2019-04-10T12:22:30.251Z"}
+{"level":"info","message":"1234","timestamp":"2019-04-10T12:22:30.251Z"}
+{"level":"info","message":"Connected to database: hangman on host: localhost with mongoDB server ...","timestamp":"2019-04-10T12:22:30.265Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T12:22:59.566Z"}
+{"level":"info","message":"development","timestamp":"2019-04-10T12:22:59.567Z"}
+{"level":"info","message":"33425","timestamp":"2019-04-10T12:22:59.567Z"}
+{"level":"info","message":"Connected to database: hangman on host: localhost with mongoDB server ...","timestamp":"2019-04-10T12:22:59.582Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T12:23:24.333Z"}
+{"level":"info","message":"development","timestamp":"2019-04-10T12:23:24.334Z"}
+{"level":"info","message":"33425","timestamp":"2019-04-10T12:23:24.334Z"}
+{"level":"info","message":"Connected to database: hangman on host: localhost with mongoDB server ...","timestamp":"2019-04-10T12:23:24.349Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T12:24:33.487Z"}
+{"level":"info","message":"Running in: development","timestamp":"2019-04-10T12:24:33.488Z"}
+{"level":"info","message":"Private server Key: 33425","timestamp":"2019-04-10T12:24:33.488Z"}
+{"level":"info","message":"Connected to database: hangman on host: localhost with mongoDB server ...","timestamp":"2019-04-10T12:24:33.504Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T12:25:23.299Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-04-10T12:25:23.299Z"}
+{"level":"info","message":"Private server Key: 33425","timestamp":"2019-04-10T12:25:23.300Z"}
+{"level":"info","message":"Connected to database: hangman on host: localhost with mongoDB server ...","timestamp":"2019-04-10T12:25:23.314Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T12:26:48.917Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-04-10T12:26:48.917Z"}
+{"level":"info","message":"Private server Key: 33425","timestamp":"2019-04-10T12:26:48.917Z"}
+{"level":"info","message":"Connected to database: hangman on host: localhost with mongoDB server ...","timestamp":"2019-04-10T12:26:48.932Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T12:28:49.975Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-04-10T12:28:49.975Z"}
+{"level":"info","message":"Private server Key: 33425","timestamp":"2019-04-10T12:28:49.975Z"}
+{"level":"info","message":"Connected to database: hangman on host: localhost with mongoDB server ...","timestamp":"2019-04-10T12:28:49.992Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T12:31:38.099Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-04-10T12:31:38.099Z"}
+{"level":"info","message":"Private server Key: 33425","timestamp":"2019-04-10T12:31:38.099Z"}
+{"level":"info","message":"Connected to database: hangman on host: localhost with mongoDB server ...","timestamp":"2019-04-10T12:31:38.115Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T12:31:53.089Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-04-10T12:31:53.090Z"}
+{"level":"info","message":"Private server Key: 33425","timestamp":"2019-04-10T12:31:53.090Z"}
+{"level":"info","message":"Connected to database: hangman on host: localhost with mongoDB server ...","timestamp":"2019-04-10T12:31:53.107Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T12:33:14.253Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-04-10T12:33:14.254Z"}
+{"level":"info","message":"Private server Key: 33425","timestamp":"2019-04-10T12:33:14.254Z"}
+{"level":"info","message":"Connected to database: hangman on host: localhost with mongoDB server ...","timestamp":"2019-04-10T12:33:14.280Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T12:33:36.369Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-04-10T12:33:36.370Z"}
+{"level":"info","message":"Private server Key: 33425","timestamp":"2019-04-10T12:33:36.370Z"}
+{"level":"info","message":"Connected to database: hangman on host: localhost with mongoDB server ...","timestamp":"2019-04-10T12:33:36.384Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T12:34:08.591Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-04-10T12:34:08.592Z"}
+{"level":"info","message":"Private server Key: 33425","timestamp":"2019-04-10T12:34:08.592Z"}
+{"level":"info","message":"Connected to database: hangman on host: localhost with mongoDB server ...","timestamp":"2019-04-10T12:34:08.608Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T12:34:49.666Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-04-10T12:34:49.667Z"}
+{"level":"info","message":"Private server Key: SomeKey","timestamp":"2019-04-10T12:34:49.667Z"}
+{"level":"info","message":"Connected to database: hangman on host: localhost with mongoDB server ...","timestamp":"2019-04-10T12:34:49.682Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T12:35:30.987Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-04-10T12:35:30.987Z"}
+{"level":"info","message":"Private server Key: SomeKey","timestamp":"2019-04-10T12:35:30.987Z"}
+{"level":"info","message":"Connected to database: hangman on host: localhost with mongoDB server ...","timestamp":"2019-04-10T12:35:31.002Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T12:37:53.810Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-04-10T12:37:53.810Z"}
+{"level":"info","message":"Private server Key: SomeKey","timestamp":"2019-04-10T12:37:53.811Z"}
+{"level":"info","message":"Connected to database: hangman on host: localhost with mongoDB server ...","timestamp":"2019-04-10T12:37:53.828Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T12:51:21.744Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-04-10T12:51:21.745Z"}
+{"level":"info","message":"Private server Key: SomeKey","timestamp":"2019-04-10T12:51:21.745Z"}
+{"level":"info","message":"Connected to database: hangman on host: localhost with mongoDB server ...","timestamp":"2019-04-10T12:51:21.763Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T12:51:27.025Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-04-10T12:51:27.026Z"}
+{"level":"info","message":"Private server Key: SomeKey","timestamp":"2019-04-10T12:51:27.026Z"}
+{"level":"info","message":"Connected to database: hangman on host: localhost with mongoDB server ...","timestamp":"2019-04-10T12:51:27.047Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T12:51:34.985Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-04-10T12:51:34.985Z"}
+{"level":"info","message":"Private server Key: SomeKey","timestamp":"2019-04-10T12:51:34.985Z"}
+{"level":"info","message":"Connected to database: hangman on host: localhost with mongoDB server ...","timestamp":"2019-04-10T12:51:35.003Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T13:03:48.202Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-04-10T13:03:48.203Z"}
+{"level":"info","message":"Private server Key: SomeKey","timestamp":"2019-04-10T13:03:48.203Z"}
+{"level":"info","message":"Connected to database: hangman on host: localhost with mongoDB server ...","timestamp":"2019-04-10T13:03:48.226Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T13:04:07.119Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-04-10T13:04:07.119Z"}
+{"level":"info","message":"Private server Key: SomeKey","timestamp":"2019-04-10T13:04:07.119Z"}
+{"level":"info","message":"Connected to database: hangman on host: localhost with mongoDB server ...","timestamp":"2019-04-10T13:04:07.135Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T13:04:32.246Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-04-10T13:04:32.247Z"}
+{"level":"info","message":"Private server Key: SomeKey","timestamp":"2019-04-10T13:04:32.247Z"}
+{"level":"info","message":"Connected to database: hangman on host: localhost with mongoDB server ...","timestamp":"2019-04-10T13:04:32.267Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T13:04:57.695Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-04-10T13:04:57.696Z"}
+{"level":"info","message":"Private server Key: SomeKey","timestamp":"2019-04-10T13:04:57.696Z"}
+{"level":"info","message":"Connected to database: hangman on host: localhost with mongoDB server ...","timestamp":"2019-04-10T13:04:57.715Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T13:07:50.399Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-04-10T13:07:50.399Z"}
+{"level":"info","message":"Private server Key: SomeKey","timestamp":"2019-04-10T13:07:50.400Z"}
+{"level":"info","message":"Connected to database: hangman on host: localhost with mongoDB server ...","timestamp":"2019-04-10T13:07:50.416Z"}
+{"message":"Invalid status code: 5421","stack":"RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 5421\n    at ServerResponse.writeHead (_http_server.js:208:11)\n    at ServerResponse._implicitHeader (_http_server.js:199:8)\n    at ServerResponse.end (_http_outgoing.js:717:10)\n    at ServerResponse.send (/home/lucas/dane/PROJEKTY/Hangman-backend/node_modules/express/lib/response.js:221:10)\n    at router.get (/home/lucas/dane/PROJEKTY/Hangman-backend/routes/quotes.js:27:9)\n    at processTicksAndRejections (internal/process/task_queues.js:86:5)","level":"error","timestamp":"2019-04-10T13:08:01.240Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T13:08:23.049Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-04-10T13:08:23.050Z"}
+{"level":"info","message":"Private server Key: SomeKey","timestamp":"2019-04-10T13:08:23.050Z"}
+{"level":"info","message":"Connected to database: hangman on host: localhost with mongoDB server ...","timestamp":"2019-04-10T13:08:23.068Z"}
+{"message":"Invalid status code: 5421","stack":"RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 5421\n    at ServerResponse.writeHead (_http_server.js:208:11)\n    at ServerResponse._implicitHeader (_http_server.js:199:8)\n    at ServerResponse.end (_http_outgoing.js:717:10)\n    at ServerResponse.send (/home/lucas/dane/PROJEKTY/Hangman-backend/node_modules/express/lib/response.js:221:10)\n    at router.get (/home/lucas/dane/PROJEKTY/Hangman-backend/routes/quotes.js:27:9)\n    at processTicksAndRejections (internal/process/task_queues.js:86:5)","level":"error","timestamp":"2019-04-10T13:08:26.326Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T13:08:35.199Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-04-10T13:08:35.200Z"}
+{"level":"info","message":"Private server Key: SomeKey","timestamp":"2019-04-10T13:08:35.200Z"}
+{"level":"info","message":"Connected to database: hangman on host: localhost with mongoDB server ...","timestamp":"2019-04-10T13:08:35.222Z"}
+{"message":"Invalid status code: 5421","stack":"RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 5421\n    at ServerResponse.writeHead (_http_server.js:208:11)\n    at ServerResponse._implicitHeader (_http_server.js:199:8)\n    at ServerResponse.end (_http_outgoing.js:717:10)\n    at ServerResponse.send (/home/lucas/dane/PROJEKTY/Hangman-backend/node_modules/express/lib/response.js:221:10)\n    at router.get (/home/lucas/dane/PROJEKTY/Hangman-backend/routes/quotes.js:27:9)\n    at processTicksAndRejections (internal/process/task_queues.js:86:5)","level":"error","timestamp":"2019-04-10T13:08:38.183Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T13:09:27.639Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-04-10T13:09:27.640Z"}
+{"level":"info","message":"Private server Key: SomeKey","timestamp":"2019-04-10T13:09:27.640Z"}
+{"level":"info","message":"Connected to database: hangman on host: localhost with mongoDB server ...","timestamp":"2019-04-10T13:09:27.655Z"}
+{"message":"Invalid status code: 5421","stack":"RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 5421\n    at ServerResponse.writeHead (_http_server.js:208:11)\n    at ServerResponse._implicitHeader (_http_server.js:199:8)\n    at ServerResponse.end (_http_outgoing.js:717:10)\n    at ServerResponse.send (/home/lucas/dane/PROJEKTY/Hangman-backend/node_modules/express/lib/response.js:221:10)\n    at router.get (/home/lucas/dane/PROJEKTY/Hangman-backend/routes/quotes.js:27:9)\n    at processTicksAndRejections (internal/process/task_queues.js:86:5)","level":"error","timestamp":"2019-04-10T13:09:31.948Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T13:09:50.808Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-04-10T13:09:50.809Z"}
+{"level":"info","message":"Private server Key: SomeKey","timestamp":"2019-04-10T13:09:50.809Z"}
+{"level":"info","message":"Connected to database: hangman on host: localhost with mongoDB server ...","timestamp":"2019-04-10T13:09:50.826Z"}
+{"message":"Cannot read property 'count' of undefined","stack":"TypeError: Cannot read property 'count' of undefined\n    at router.get (/home/lucas/dane/PROJEKTY/Hangman-backend/routes/quotes.js:28:35)\n    at processTicksAndRejections (internal/process/task_queues.js:86:5)","level":"error","timestamp":"2019-04-10T13:09:53.543Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T13:17:15.868Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-04-10T13:17:15.869Z"}
+{"level":"info","message":"Private server Key: SomeKey","timestamp":"2019-04-10T13:17:15.869Z"}
+{"level":"info","message":"Connected to database: hangman on host: localhost with mongoDB server ...","timestamp":"2019-04-10T13:17:15.890Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T13:17:21.395Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-04-10T13:17:21.396Z"}
+{"level":"info","message":"Private server Key: SomeKey","timestamp":"2019-04-10T13:17:21.396Z"}
+{"level":"info","message":"Connected to database: hangman on host: localhost with mongoDB server ...","timestamp":"2019-04-10T13:17:21.412Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T13:21:18.225Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-04-10T13:21:18.226Z"}
+{"level":"info","message":"Private server Key: SomeKey","timestamp":"2019-04-10T13:21:18.226Z"}
+{"level":"info","message":"Connected to database: hangman on host: localhost with mongoDB server ...","timestamp":"2019-04-10T13:21:18.245Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T13:21:33.217Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-04-10T13:21:33.218Z"}
+{"level":"info","message":"Private server Key: SomeKey","timestamp":"2019-04-10T13:21:33.218Z"}
+{"level":"info","message":"Connected to database: hangman on host: localhost with mongoDB server ...","timestamp":"2019-04-10T13:21:33.234Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T13:22:04.136Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-04-10T13:22:04.137Z"}
+{"level":"info","message":"Private server Key: SomeKey","timestamp":"2019-04-10T13:22:04.137Z"}
+{"level":"info","message":"Connected to database: hangman on host: localhost with mongoDB server ...","timestamp":"2019-04-10T13:22:04.151Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T13:23:25.580Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-04-10T13:23:25.581Z"}
+{"level":"info","message":"Private server Key: SomeKey","timestamp":"2019-04-10T13:23:25.581Z"}
+{"level":"info","message":"Connected to database: hangman on host: localhost with mongoDB server ...","timestamp":"2019-04-10T13:23:25.615Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T13:42:12.225Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-04-10T13:42:12.226Z"}
+{"level":"info","message":"Private server Key: SomeKey","timestamp":"2019-04-10T13:42:12.226Z"}
+{"level":"info","message":"Connected to database: hangman on host: localhost with mongoDB server ...","timestamp":"2019-04-10T13:42:12.244Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T13:42:49.016Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-04-10T13:42:49.017Z"}
+{"level":"info","message":"Private server Key: SomeKey","timestamp":"2019-04-10T13:42:49.017Z"}
+{"level":"info","message":"Connected to database: hangman on host: localhost with mongoDB server ...","timestamp":"2019-04-10T13:42:49.035Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T13:44:09.660Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-04-10T13:44:09.661Z"}
+{"level":"info","message":"Private server Key: SomeKey","timestamp":"2019-04-10T13:44:09.661Z"}
+{"level":"info","message":"Connected to database: hangman on host: localhost with mongoDB server ...","timestamp":"2019-04-10T13:44:09.678Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T13:46:09.648Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-04-10T13:46:09.649Z"}
+{"level":"info","message":"Private server Key: SomeKey","timestamp":"2019-04-10T13:46:09.649Z"}
+{"level":"info","message":"Connected to database: hangman on host: localhost with mongoDB server ...","timestamp":"2019-04-10T13:46:09.674Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T13:46:13.035Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-04-10T13:46:13.036Z"}
+{"level":"info","message":"Private server Key: SomeKey","timestamp":"2019-04-10T13:46:13.036Z"}
+{"level":"info","message":"Connected to database: hangman on host: localhost with mongoDB server ...","timestamp":"2019-04-10T13:46:13.059Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T13:48:00.320Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-04-10T13:48:00.321Z"}
+{"level":"info","message":"Private server Key: SomeKey","timestamp":"2019-04-10T13:48:00.321Z"}
+{"level":"info","message":"Connected to database: hangman on host: localhost with mongoDB server ...","timestamp":"2019-04-10T13:48:00.349Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T13:49:56.474Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-04-10T13:49:56.474Z"}
+{"level":"info","message":"Private server Key: SomeKey","timestamp":"2019-04-10T13:49:56.474Z"}
+{"level":"info","message":"Connected to database: hangman on host: localhost with mongoDB server ...","timestamp":"2019-04-10T13:49:56.493Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T13:50:54.478Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-04-10T13:50:54.478Z"}
+{"level":"info","message":"Private server Key: SomeKey","timestamp":"2019-04-10T13:50:54.478Z"}
+{"level":"info","message":"Connected to database: hangman on host: localhost with mongoDB server ...","timestamp":"2019-04-10T13:50:54.497Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T13:51:48.292Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-04-10T13:51:48.292Z"}
+{"level":"info","message":"Private server Key: SomeKey","timestamp":"2019-04-10T13:51:48.292Z"}
+{"level":"info","message":"Connected to database: hangman on host: localhost with mongoDB server ...","timestamp":"2019-04-10T13:51:48.309Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T13:52:40.174Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-04-10T13:52:40.174Z"}
+{"level":"info","message":"Private server Key: SomeKey","timestamp":"2019-04-10T13:52:40.174Z"}
+{"level":"info","message":"Connected to database: hangman on host: localhost with mongoDB server ...","timestamp":"2019-04-10T13:52:40.189Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T13:52:42.931Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-04-10T13:52:42.932Z"}
+{"level":"info","message":"Private server Key: SomeKey","timestamp":"2019-04-10T13:52:42.932Z"}
+{"level":"info","message":"Connected to database: hangman on host: localhost with mongoDB server ...","timestamp":"2019-04-10T13:52:42.951Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T13:53:11.300Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-04-10T13:53:11.300Z"}
+{"level":"info","message":"Private server Key: SomeKey","timestamp":"2019-04-10T13:53:11.301Z"}
+{"level":"info","message":"Connected to database: hangman on host: localhost with mongoDB server ...","timestamp":"2019-04-10T13:53:11.326Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T13:54:41.018Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-04-10T13:54:41.019Z"}
+{"level":"info","message":"Private server Key: SomeKey","timestamp":"2019-04-10T13:54:41.019Z"}
+{"level":"info","message":"Connected to database: hangman on host: localhost with mongoDB server ...","timestamp":"2019-04-10T13:54:41.040Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T13:56:55.323Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-04-10T13:56:55.324Z"}
+{"level":"info","message":"Private server Key: SomeKey","timestamp":"2019-04-10T13:56:55.324Z"}
+{"level":"info","message":"Connected to database: hangman on host: localhost with mongoDB server ...","timestamp":"2019-04-10T13:56:55.344Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T13:57:55.512Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-04-10T13:57:55.513Z"}
+{"level":"info","message":"Private server Key: SomeKey","timestamp":"2019-04-10T13:57:55.514Z"}
+{"level":"info","message":"Connected to database: hangman on host: localhost with mongoDB server ...","timestamp":"2019-04-10T13:57:55.541Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T14:08:25.984Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-04-10T14:08:25.985Z"}
+{"level":"info","message":"Private server Key: SomeKey","timestamp":"2019-04-10T14:08:25.985Z"}
+{"level":"info","message":"Connected to database: hangman on host: localhost with mongoDB server ...","timestamp":"2019-04-10T14:08:26.003Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T14:11:42.449Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-04-10T14:11:42.450Z"}
+{"level":"info","message":"Private server Key: SomeKey","timestamp":"2019-04-10T14:11:42.450Z"}
+{"level":"info","message":"Connected to database: hangman on host: localhost with mongoDB server ...","timestamp":"2019-04-10T14:11:42.468Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T14:19:42.666Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-04-10T14:19:42.666Z"}
+{"level":"info","message":"Private server Key: SomeKey","timestamp":"2019-04-10T14:19:42.666Z"}
+{"level":"info","message":"Connected to database: hangman on host: localhost with mongoDB server ...","timestamp":"2019-04-10T14:19:42.690Z"}
+{"code":"PUG:INVALID_TOKEN","msg":"unexpected token \"indent\"","line":2,"column":1,"filename":"/home/lucas/dane/PROJEKTY/Hangman-backend/views/metainfo.pug"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T14:20:39.073Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-04-10T14:20:39.074Z"}
+{"level":"info","message":"Private server Key: SomeKey","timestamp":"2019-04-10T14:20:39.074Z"}
+{"level":"info","message":"Connected to database: hangman on host: localhost with mongoDB server ...","timestamp":"2019-04-10T14:20:39.094Z"}
+{"code":"PUG:INVALID_TOKEN","msg":"unexpected token \"indent\"","line":2,"column":1,"filename":"/home/lucas/dane/PROJEKTY/Hangman-backend/views/metainfo.pug"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T14:28:20.922Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-04-10T14:28:20.923Z"}
+{"level":"info","message":"Private server Key: SomeKey","timestamp":"2019-04-10T14:28:20.923Z"}
+{"level":"info","message":"Connected to database: hangman on host: localhost with mongoDB server ...","timestamp":"2019-04-10T14:28:20.952Z"}
+{"code":"PUG:INVALID_TOKEN","msg":"unexpected token \"indent\"","line":2,"column":1,"filename":"/home/lucas/dane/PROJEKTY/Hangman-backend/views/metainfo.pug"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T14:33:49.734Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-04-10T14:33:49.735Z"}
+{"level":"info","message":"Private server Key: SomeKey","timestamp":"2019-04-10T14:33:49.735Z"}
+{"level":"info","message":"Connected to database: hangman on host: localhost with mongoDB server ...","timestamp":"2019-04-10T14:33:49.753Z"}
+{"code":"PUG:INVALID_TOKEN","msg":"unexpected token \"indent\"","line":2,"column":1,"filename":"/home/lucas/dane/PROJEKTY/Hangman-backend/views/metainfo.pug"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T14:34:56.968Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-04-10T14:34:56.969Z"}
+{"level":"info","message":"Private server Key: SomeKey","timestamp":"2019-04-10T14:34:56.969Z"}
+{"level":"info","message":"Connected to database: hangman on host: localhost with mongoDB server ...","timestamp":"2019-04-10T14:34:56.988Z"}
+{"code":"PUG:INVALID_TOKEN","msg":"unexpected token \"indent\"","line":2,"column":1,"filename":"/home/lucas/dane/PROJEKTY/Hangman-backend/views/metainfo.pug"}
+{"code":"PUG:INVALID_TOKEN","msg":"unexpected token \"indent\"","line":2,"column":1,"filename":"/home/lucas/dane/PROJEKTY/Hangman-backend/views/metainfo.pug"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T14:35:14.715Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-04-10T14:35:14.716Z"}
+{"level":"info","message":"Private server Key: SomeKey","timestamp":"2019-04-10T14:35:14.716Z"}
+{"level":"info","message":"Connected to database: hangman on host: localhost with mongoDB server ...","timestamp":"2019-04-10T14:35:14.733Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T14:35:53.122Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-04-10T14:35:53.122Z"}
+{"level":"info","message":"Private server Key: SomeKey","timestamp":"2019-04-10T14:35:53.122Z"}
+{"level":"info","message":"Connected to database: hangman on host: localhost with mongoDB server ...","timestamp":"2019-04-10T14:35:53.144Z"}
+{"code":"PUG:INVALID_TOKEN","msg":"unexpected token \"indent\"","line":2,"column":1,"filename":"/home/lucas/dane/PROJEKTY/Hangman-backend/views/metainfo.pug"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T14:36:07.849Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-04-10T14:36:07.849Z"}
+{"level":"info","message":"Private server Key: SomeKey","timestamp":"2019-04-10T14:36:07.850Z"}
+{"level":"info","message":"Connected to database: hangman on host: localhost with mongoDB server ...","timestamp":"2019-04-10T14:36:07.870Z"}
+{"code":"PUG:INVALID_TOKEN","msg":"unexpected token \"indent\"","line":2,"column":1,"filename":"/home/lucas/dane/PROJEKTY/Hangman-backend/views/metainfo.pug"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T14:36:36.446Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-04-10T14:36:36.447Z"}
+{"level":"info","message":"Private server Key: SomeKey","timestamp":"2019-04-10T14:36:36.447Z"}
+{"level":"info","message":"Connected to database: hangman on host: localhost with mongoDB server ...","timestamp":"2019-04-10T14:36:36.470Z"}
+{"code":"PUG:INVALID_TOKEN","msg":"unexpected token \"indent\"","line":2,"column":1,"filename":"/home/lucas/dane/PROJEKTY/Hangman-backend/views/metainfo.pug"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T14:38:04.919Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-04-10T14:38:04.920Z"}
+{"level":"info","message":"Private server Key: SomeKey","timestamp":"2019-04-10T14:38:04.920Z"}
+{"level":"info","message":"Connected to database: hangman on host: localhost with mongoDB server ...","timestamp":"2019-04-10T14:38:04.950Z"}
+{"message":"Maximum call stack size exceeded","stack":"RangeError: Maximum call stack size exceeded\n    at Lexer.callLexerFunction (/home/lucas/dane/PROJEKTY/Hangman-backend/node_modules/pug-lexer/index.js:1456:23)\n    at Lexer.advance (/home/lucas/dane/PROJEKTY/Hangman-backend/node_modules/pug-lexer/index.js:1487:15)\n    at Lexer.callLexerFunction (/home/lucas/dane/PROJEKTY/Hangman-backend/node_modules/pug-lexer/index.js:1456:23)\n    at Lexer.getTokens (/home/lucas/dane/PROJEKTY/Hangman-backend/node_modules/pug-lexer/index.js:1512:12)\n    at lex (/home/lucas/dane/PROJEKTY/Hangman-backend/node_modules/pug-lexer/index.js:12:42)\n    at Object.lex (/home/lucas/dane/PROJEKTY/Hangman-backend/node_modules/pug/lib/index.js:99:27)\n    at Function.loadString [as string] (/home/lucas/dane/PROJEKTY/Hangman-backend/node_modules/pug-load/index.js:44:24)\n    at /home/lucas/dane/PROJEKTY/Hangman-backend/node_modules/pug-load/index.js:31:27\n    at walkAST (/home/lucas/dane/PROJEKTY/Hangman-backend/node_modules/pug-walk/index.js:23:18)\n    at /home/lucas/dane/PROJEKTY/Hangman-backend/node_modules/pug-walk/index.js:104:20\n    at Array.reduce (<anonymous>)\n    at walkAndMergeNodes (/home/lucas/dane/PROJEKTY/Hangman-backend/node_modules/pug-walk/index.js:103:18)\n    at walkAST (/home/lucas/dane/PROJEKTY/Hangman-backend/node_modules/pug-walk/index.js:37:19)\n    at load (/home/lucas/dane/PROJEKTY/Hangman-backend/node_modules/pug-load/index.js:13:10)\n    at Function.loadString [as string] (/home/lucas/dane/PROJEKTY/Hangman-backend/node_modules/pug-load/index.js:46:10)\n    at /home/lucas/dane/PROJEKTY/Hangman-backend/node_modules/pug-load/index.js:31:27","level":"error","timestamp":"2019-04-10T14:46:53.240Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T14:50:58.156Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-04-10T14:50:58.157Z"}
+{"level":"info","message":"Private server Key: SomeKey","timestamp":"2019-04-10T14:50:58.157Z"}
+{"level":"info","message":"Connected to database: hangman on host: localhost with mongoDB server ...","timestamp":"2019-04-10T14:50:58.179Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T14:53:56.867Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-04-10T14:53:56.868Z"}
+{"level":"info","message":"Private server Key: SomeKey","timestamp":"2019-04-10T14:53:56.868Z"}
+{"level":"info","message":"Connected to database: hangman on host: localhost with mongoDB server ...","timestamp":"2019-04-10T14:53:56.889Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T14:54:21.096Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-04-10T14:54:21.097Z"}
+{"level":"info","message":"Private server Key: SomeKey","timestamp":"2019-04-10T14:54:21.097Z"}
+{"level":"info","message":"Connected to database: hangman on host: localhost with mongoDB server ...","timestamp":"2019-04-10T14:54:21.114Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T14:57:37.719Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-04-10T14:57:37.720Z"}
+{"level":"info","message":"Private server Key: SomeKey","timestamp":"2019-04-10T14:57:37.720Z"}
+{"level":"info","message":"Connected to database: hangman on host: localhost with mongoDB server ...","timestamp":"2019-04-10T14:57:37.742Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T15:00:09.374Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-04-10T15:00:09.374Z"}
+{"level":"info","message":"Private server Key: SomeKey","timestamp":"2019-04-10T15:00:09.374Z"}
+{"level":"info","message":"Connected to database: hangman on host: localhost with mongoDB server ...","timestamp":"2019-04-10T15:00:09.395Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T15:05:11.552Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-04-10T15:05:11.552Z"}
+{"level":"info","message":"Private server Key: SomeKey","timestamp":"2019-04-10T15:05:11.552Z"}
+{"level":"info","message":"Connected to database: hangman on host: localhost with mongoDB server ...","timestamp":"2019-04-10T15:05:11.584Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T15:06:41.454Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-04-10T15:06:41.454Z"}
+{"level":"info","message":"Private server Key: SomeKey","timestamp":"2019-04-10T15:06:41.455Z"}
+{"level":"info","message":"Connected to database: hangman on host: localhost with mongoDB server ...","timestamp":"2019-04-10T15:06:41.477Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T15:07:27.755Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-04-10T15:07:27.756Z"}
+{"level":"info","message":"Private server Key: SomeKey","timestamp":"2019-04-10T15:07:27.756Z"}
+{"level":"info","message":"Connected to database: hangman on host: localhost with mongoDB server ...","timestamp":"2019-04-10T15:07:27.776Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T15:08:30.417Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-04-10T15:08:30.418Z"}
+{"level":"info","message":"Private server Key: SomeKey","timestamp":"2019-04-10T15:08:30.418Z"}
+{"level":"info","message":"Connected to database: hangman on host: localhost with mongoDB server ...","timestamp":"2019-04-10T15:08:30.440Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2019-04-10T15:11:25.019Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-04-10T15:11:25.020Z"}
+{"level":"info","message":"Private server Key: SomeKey","timestamp":"2019-04-10T15:11:25.020Z"}
+{"level":"info","message":"Connected to database: hangman on host: localhost with mongoDB server ...","timestamp":"2019-04-10T15:11:25.042Z"}

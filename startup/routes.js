@@ -1,4 +1,11 @@
 const express = require('express');
+/* Route definition start */
+
+const quotes = require('../routes/quotes');
+const home = require('../routes/home');
+
+/* Route definition end */
+const error = require('../middleware/error');
 
 
 
@@ -6,7 +13,8 @@ const express = require('express');
 
 module.exports = function(app){
     app.use(express.json()) ;
-
-    // app.use('/', home);    EXAMPLE
+    app.use('/api/quotes', quotes);
+    app.use('/', home); 
+    app.use(express.static('public'));          //We use that to serve static files
     app.use(error);
 }
