@@ -5,7 +5,6 @@ const app = express();
 const winston = require('winston');
 
 require('./startup/logging')();  //it must be first
-require('./startup/config')(); 
 require('./startup/database')(); 
 require('./startup/routes')(app);
 

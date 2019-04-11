@@ -1,6 +1,6 @@
 {
-    "jwtPrivateKey": "",
-    "page":{
-        "title": "Hangmann Backend Service"
+    "site":{
+        "title": "Hangman - Backend API - info"
     }
+
 }

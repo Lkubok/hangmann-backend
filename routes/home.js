@@ -1,12 +1,11 @@
-const mongoose = require('mongoose');
 const express = require('express');
 const router = express.Router(); 
 const config = require('config');
-const page = config.get('page');
+const site = config.get('site');
 
 router.get('/', (req, res) => {
 
-    res.render('main', {title: page.title, message: 'STRING!' });
+    res.render('main', {title: site.title, message: 'STRING!' });
 
 
 
@@ -15,7 +14,7 @@ router.get('/', (req, res) => {
 });
 router.get('/Quotes', (req, res) => {
 
-    res.render('quotes', {title: page.title, message: 'STRING!' });
+    res.render('quotes', {title: site.title, message: 'STRING!' });
 
 
 
