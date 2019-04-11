@@ -10,23 +10,28 @@ setInterval(() => {
 }, 1000);
 
 function getParams(){
+
     return sysOb = {
-        freeMem: os.freemem(),
-        totalMem: os.totalmem(),
+        freeMem: toHuman(os.freemem()),
+        totalMem: toHuman(os.totalmem()),
         hostname: os.hostname(),
-        platform: os.platform(),
         osType: os.type(),
-        ipAdress: os.networkInterfaces().address
     }
 }
 
+toHuman = (bytes) => {
+    const sizes = ['Bytes', 'KB', 'MB', 'GB', 'TB'];
+    if (bytes == 0) return '0 Byte';
+    const i = parseInt(Math.floor(Math.log(bytes) / Math.log(1024)));
+    return Math.round(bytes / Math.pow(1024, i), 2) + ' ' + sizes[i];
+    };
 
 
 router.get('/', (req, res) => {
     res.render('main', { title: site.title, message: 'STRING!' });
 });
 router.get('/SysInfo', (req, res) => {
-    res.render('sysinfo', { title: site.title, freemem: sysOb.freeMem, totalmem: sysOb.totalMem, hostname: sysOb.hostname, platform: sysOb.platform, ostype: sysOb.osType, adress: sysOb.address});
+    res.render('sysinfo', { title: site.title, freemem: sysOb.freeMem, totalmem: sysOb.totalMem, hostname: sysOb.hostname, ostype: sysOb.osType});
 });
 router.get('/About', (req, res) => {
     res.render('about', { title: site.title, message: 'ABOUT' });
