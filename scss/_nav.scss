@@ -1,0 +1,28 @@
+@import "variables";
+@import "mixins";
+
+ul{
+    display: flex;
+    flex-flow: row wrap;
+    height: 50px;
+    justify-content: flex-end;
+    align-items: center;
+    color: $white-color;
+    background-color: $dark-color;
+    list-style-type: none;
+    margin:0;
+    li{
+        flex-basis: 10%;
+        a{
+            color:$white-color;
+            text-decoration: none;
+            font-weight: 100;
+            padding: 10px;
+            transition: all 0.4s ease-in-out;
+            border-radius: 3px;
+        }
+        a:hover{
+            background-color: $primary-color;
+        }
+    }
+}

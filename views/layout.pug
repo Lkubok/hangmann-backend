@@ -1,17 +1,14 @@
-
-
-html
-
-
+doctype 5
+html(lang='pl-PL')
     head
-        title= title
-        block css
-
-
+        include meta.pug   
     body
-        h1= message
+        include header
+               
+        block menu
+        block content
+        block footer
 
-        a(href='/') link to main site
-        a(href='/about') Section about
+
 
         

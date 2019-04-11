@@ -6,10 +6,22 @@ const page = config.get('page');
 
 router.get('/', (req, res) => {
 
-    res.render('metainfo', {title: page.title, message: 'STRING!' })
+    res.render('main', {title: page.title, message: 'STRING!' });
+
+
+
+    // res.send('HELLO')
 
 });
+router.get('/Quotes', (req, res) => {
 
+    res.render('quotes', {title: page.title, message: 'STRING!' });
+
+
+
+    // res.send('HELLO')
+
+});
 
 
 

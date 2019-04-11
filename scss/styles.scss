@@ -1,9 +1,22 @@
 @import "variables";
+@import "mixins";
 
-/* Login Page */
+/* HEADER SECTION START */
 
-@import "login-screen";
+@import "header";
+
+/* END OF HEADER SECTION */
+
+/* NAV SECTION START */
+
+@import "nav";
+
+/* END OF NAV SECTION */
 
 
+/* MAIN SECTION START */
 
-/* End of login page */
+@import "main";
+
+/* END OF MAIN SECTION */
+

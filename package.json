@@ -5,16 +5,18 @@
   "main": "index.js",
   "scripts": {
     "test": "npm test",
-    "start": "node index.js",
-    "run": "nodemon index.js"
+    "start": "node -r dotenv/config index.js dotenv_config_path=/config/variables.env"
   },
   "author": "Lukasz Kubok",
   "license": "ISC",
   "dependencies": {
+    "auth0": "^2.16.0",
+    "auth0-js": "^9.10.1",
     "bcrypt": "^3.0.5",
     "compression": "^1.7.4",
     "config": "^3.1.0",
     "debug": "^4.1.1",
+    "dotenv": "^7.0.0",
     "express": "^4.16.4",
     "express-async-errors": "^3.1.1",
     "fawn": "^2.1.5",

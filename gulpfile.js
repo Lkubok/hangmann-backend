@@ -11,3 +11,11 @@ gulp.task('watch', () => {
 gulp.watch(`./scss/**/*.scss`, gulp.series(`sass`));
   });
   
+
+  //gulp hash filenma
+
+  //minifire
+
+  //uglyfy
+
+  //gulp autoprefixer 
