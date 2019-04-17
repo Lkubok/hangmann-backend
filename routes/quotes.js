@@ -2,6 +2,8 @@ const {Quote, validate} = require('../models/quote');
 const mongoose = require('mongoose');
 const express = require('express');
 const router = express.Router(); 
+const randomize = require('../functions/randomize');
+
 // const auth = require('../middleware/auth');                  // Function to Add in Future
 // const admin = require('../middleware/admin');                // Function to Add in Future
 // const asyncMiddleware = require('../middleware/async');      // Function to Add in Future
@@ -33,9 +35,7 @@ router.get(`/random`, async (req, res) => {
     const randomQuote = await Quote.find().limit(1).skip(randomize(quotes));
     res.send(randomQuote);
 });
-function randomize(collection){
-    return Math.floor(Math.random() * collection.length);
-}
+
 /* END OF GET ACTIONS */
 
 
