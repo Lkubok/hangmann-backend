@@ -2,8 +2,6 @@ const express = require("express");
 const router = express.Router();
 const config = require("config");
 const site = config.get("site");
-// DELETE IN FUTURE
-const getParams = require("../functions/getParams");
 
 const os = require("os");
 
@@ -11,13 +9,9 @@ router.get("/", (req, res) => {
   res.render("main", { title: site.title, message: "STRING!" }); // Remove STRING in FUTURE!!!!!!!!!!!!!!
 });
 router.get("/SysInfo", (req, res) => {
-  getParams();
   res.render("sysinfo", {
     title: site.title,
-    freemem: sysOb.freeMem,
-    totalmem: sysOb.totalMem,
-    hostname: sysOb.hostname,
-    ostype: sysOb.osType
+    urlToFetch: req.protocol + "://" + req.get("host") + req.originalUrl
   });
 });
 router.get("/About", (req, res) => {
