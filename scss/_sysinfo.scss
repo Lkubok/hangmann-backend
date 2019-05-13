@@ -1,0 +1,23 @@
+@import "mixins";
+@import "variables";
+
+#sys-info {
+  background-color: antiquewhite;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  margin-top: 25px;
+  border-radius: 15px;
+  height: 600px;
+}
+
+.bolder {
+  font-weight: 600;
+  flex-basis: 40%;
+}
+.prop {
+  font-weight: 200;
+  flex-basis: 40%;
+}

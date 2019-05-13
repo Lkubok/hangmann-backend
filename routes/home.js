@@ -11,7 +11,7 @@ router.get("/", (req, res) => {
 router.get("/SysInfo", (req, res) => {
   res.render("sysinfo", {
     title: site.title,
-    urlToFetch: req.protocol + "://" + req.get("host") + req.originalUrl
+    urlToFetch: req.protocol + "://" + req.get("host") + "/api/sysinfo"
   });
 });
 router.get("/About", (req, res) => {

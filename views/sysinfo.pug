@@ -5,9 +5,8 @@ block menu
 
 block content
     div#sys-info
-        h1= freemem
-        h1= totalmem
-        h1= hostname
-        h1= ostype
+    script(src='/js/jquery-3.3.1.min.js')
+    script(type='text/javascript').var url='#{urlToFetch}'
+    script(src='/js/sysinfoUpdate.js')
         
 

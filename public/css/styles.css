@@ -31,7 +31,8 @@ ul {
   color: #e7e1e1;
   background-color: #202328;
   list-style-type: none;
-  margin: 0; }
+  margin: 0;
+  border-radius: 15px; }
   ul li {
     flex-basis: 10%; }
     ul li a {
@@ -59,3 +60,24 @@ body {
   font-weight: 200; }
 
 /* END OF MAIN SECTION */
+/* SYSYINFO SECTION START */
+#sys-info {
+  background-color: antiquewhite;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  margin-top: 25px;
+  border-radius: 15px;
+  height: 600px; }
+
+.bolder {
+  font-weight: 600;
+  flex-basis: 40%; }
+
+.prop {
+  font-weight: 200;
+  flex-basis: 40%; }
+
+/* END OF SYSINFO SECTION */
