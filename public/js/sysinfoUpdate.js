@@ -14,4 +14,4 @@ setInterval(() => {
   $(".bolder").remove();
   $(".prop").remove();
   loadData(url);
-}, 1000);
+}, 60000); //Refreshing every one minute
