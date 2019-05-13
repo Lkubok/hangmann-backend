@@ -62,7 +62,7 @@ router.post("/new", async (req, res) => {
   let lettersToGuess = 0;
   quoteToEncode.forEach(element => {
     if (arrayOfLetters.includes(element)) {
-      encodedQuote.push("letter to guess");
+      encodedQuote.push("encoded");
       lettersToGuess++;
     } else encodedQuote.push(element);
   });
@@ -140,6 +140,7 @@ router.post("/check", async (req, res) => {
     }
 
     if (game.guessedLetters === game.letterToGuess) {
+      //Setting The state of Game, checking is user alive or dead
       var stateOfGame = "win";
     } else {
       var stateOfGame = "alive";
@@ -152,7 +153,7 @@ router.post("/check", async (req, res) => {
 
     await game.save();
 
-    res.send({ arrayToRespond, stateOfGame });
+    res.send({ arrayToRespond, stateOfGame }); // Sending the state of game to browser and position of guessed letters
   }
 });
 

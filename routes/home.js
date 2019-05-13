@@ -1,36 +1,36 @@
-const express = require('express');
+const express = require("express");
 const router = express.Router();
-const config = require('config');
-const site = config.get('site');
-const getParams = require('../functions/getParams');
+const config = require("config");
+const site = config.get("site");
+// DELETE IN FUTURE
+const getParams = require("../functions/getParams");
 
-const os = require('os');
+const os = require("os");
 
-/* setInterval(() => {
-    getParams();
-}, 1000); */
-
-router.get('/', (req, res) => {
-    res.render('main', { title: site.title, message: 'STRING!' });
+router.get("/", (req, res) => {
+  res.render("main", { title: site.title, message: "STRING!" }); // Remove STRING in FUTURE!!!!!!!!!!!!!!
 });
-router.get('/SysInfo', (req, res) => {
-    getParams();
-    res.render('sysinfo', { title: site.title, freemem: sysOb.freeMem, totalmem: sysOb.totalMem, hostname: sysOb.hostname, ostype: sysOb.osType});
+router.get("/SysInfo", (req, res) => {
+  getParams();
+  res.render("sysinfo", {
+    title: site.title,
+    freemem: sysOb.freeMem,
+    totalmem: sysOb.totalMem,
+    hostname: sysOb.hostname,
+    ostype: sysOb.osType
+  });
 });
-router.get('/About', (req, res) => {
-    res.render('about', { title: site.title, message: 'ABOUT' });
+router.get("/About", (req, res) => {
+  res.render("about", { title: site.title, message: "ABOUT" });
 });
-router.get('/Statistics', (req, res) => {
-    res.render('statistics', { title: site.title, message: 'STATS' });
+router.get("/Statistics", (req, res) => {
+  res.render("statistics", { title: site.title, message: "STATS" });
 });
-router.get('/Quotes', (req, res) => {
-    res.render('quotes', { title: site.title, message: 'QUOTES' });
+router.get("/Quotes", (req, res) => {
+  res.render("quotes", { title: site.title, message: "QUOTES" });
 });
-router.get('/Users', (req, res) => {
-    res.render('users', { title: site.title, message: 'USERS' });
+router.get("/Users", (req, res) => {
+  res.render("users", { title: site.title, message: "USERS" });
 });
-
-
-
 
 module.exports = router;
