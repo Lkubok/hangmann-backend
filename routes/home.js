@@ -9,7 +9,7 @@ router.get("/", (req, res) => {
 router.get("/SysInfo", (req, res) => {
   res.render("sysinfo", {
     title: site.title,
-    urlToFetch: req.protocol + "s" + "://" + req.get("host") + "/api/sysinfo"
+    urlToFetch: "//" + req.get("host") + "/api/sysinfo"
   });
 });
 router.get("/About", (req, res) => {
