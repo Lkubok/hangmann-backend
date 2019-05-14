@@ -3,15 +3,13 @@ const router = express.Router();
 const config = require("config");
 const site = config.get("site");
 
-const os = require("os");
-
 router.get("/", (req, res) => {
   res.render("main", { title: site.title, message: "STRING!" }); // Remove STRING in FUTURE!!!!!!!!!!!!!!
 });
 router.get("/SysInfo", (req, res) => {
   res.render("sysinfo", {
     title: site.title,
-    urlToFetch: req.protocol + "://" + req.get("host") + "/api/sysinfo"
+    urlToFetch: req.protocol + "s" + "://" + req.get("host") + "/api/sysinfo"
   });
 });
 router.get("/About", (req, res) => {

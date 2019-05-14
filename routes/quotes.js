@@ -55,33 +55,40 @@ router.post(`/add`, async (req, res) => {
     //Making an array of quotes to compare with given quote from browser
     quotesArray.push(element.quote);
   });
-  if (quotesArray.includes(req.body.quote))
-    // Searching if quote is already in Database
-    return res.send({
+  if (quotesArray.includes(req.body.quote.toLowerCase())) {
+    res.send({
       status: "rejected",
       message: "Quote already in Database"
     });
-  const quoteToInsert = req.body.quote.toLowerCase();
-  /* REFACTOR CODE HERE */
-  function writeDifficulty(str) {
-    // Export this function in future
-    if (str.length < 40) {
-      return "easy";
-    } else if (str.length < 80) {
-      return "medium";
-    } else {
-      return "hard";
+  } else {
+    // Searching if quote is already in Database
+
+    const quoteToInsert = req.body.quote.toLowerCase();
+    /* REFACTOR CODE HERE */
+    function writeDifficulty(str) {
+      // Export this function in future
+      if (str.length < 40) {
+        return "easy";
+      } else if (str.length < 80) {
+        return "medium";
+      } else {
+        return "hard";
+      }
     }
+    let newQuote = new Quote({
+      quoteAuthor: req.body.quoteAuthor,
+      insertAuthor: req.body.insertAuthor,
+      quote: quoteToInsert,
+      lang: req.body.lang,
+      difficulty: writeDifficulty(quoteToInsert)
+    });
+    newQuote = await newQuote.save();
+    res.send({
+      status: "accepted",
+      message: "Quote added to Databse",
+      quoteObject: newQuote
+    });
   }
-  let newQuote = new Quote({
-    quoteAuthor: req.body.quoteAuthor,
-    insertAuthor: req.body.insertAuthor,
-    quote: quoteToInsert,
-    lang: req.body.lang,
-    difficulty: writeDifficulty(quoteToInsert)
-  });
-  newQuote = await newQuote.save();
-  res.send(newQuote);
 });
 
 /* END OF POST ACTIONS */
