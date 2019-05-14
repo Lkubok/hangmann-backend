@@ -1,13 +1,14 @@
-@import 'mixins';
-@import 'variables';
-*{
-    box-sizing: border-box;
+@import "mixins";
+@import "variables";
+* {
+  box-sizing: border-box;
 }
-body{
-    margin: 0;
-    padding: 0;
-    background-color: $white-color;
-    @include primary-margin;
-    font-family: titilium-web, sans-serif;
-    font-weight: 200;
+body {
+  margin: 0;
+  padding: 0;
+  background-color: $white-color;
+  @include primary-margin;
+  font-family: titilium-web, sans-serif;
+  font-weight: 200;
+  background-image: url("/img/background/full-bloom.png");
 }
