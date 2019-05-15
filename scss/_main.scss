@@ -12,3 +12,14 @@ body {
   font-weight: 200;
   background-image: url("/img/background/full-bloom.png");
 }
+.content-box {
+  padding: 20px;
+  border: 2px solid $primary-color;
+  border-radius: 10px;
+  background-color: rgba(108, 186, 1, 0.05);
+  margin-top: 10px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}

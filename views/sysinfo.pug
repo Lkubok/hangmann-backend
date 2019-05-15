@@ -4,9 +4,10 @@ block menu
     include menu.pug
 
 block content
-    div#sys-info
-    script(src='/js/jquery-3.3.1.min.js')
-    script(type='text/javascript').var url='#{urlToFetch}'
-    script(src='/js/sysinfoUpdate.js')
+    div.content-box
+       h2 Server system information
+       script(src='/js/jquery-3.3.1.min.js')
+       script(type='text/javascript').var url='#{urlToFetch}'
+       script(src='/js/sysinfoUpdate.js')
         
 

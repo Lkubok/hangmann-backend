@@ -1,0 +1,69 @@
+@import "mixins";
+@import "variables";
+
+.content-box {
+  .api-box {
+    width: 100%;
+    .type-box {
+      width: 100%;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      align-items: center;
+      background-color: rgba(160, 236, 54, 0);
+      border-bottom: 2px solid $primary-color;
+      padding-bottom: 10px;
+      h2 {
+        text-align: center;
+        flex-basis: 100%;
+        margin-left: 0;
+        margin-right: 0;
+      }
+      .single-api {
+        flex-basis: 85%;
+        padding: 0px 10px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-flow: row wrap;
+        transition: all 0.3s ease-in-out;
+        a {
+          font-family: monospace;
+          flex-basis: 40%;
+          text-decoration: none;
+          font-size: 14px;
+          letter-spacing: 0.2em;
+          color: $dark-color;
+        }
+        .description {
+          flex-basis: 50%;
+          width: 100%;
+          display: flex;
+          flex-flow: column;
+          justify-content: center;
+          align-items: flex-start;
+          p {
+            font-family: "Open Sans", sans-serif;
+            font-weight: 400;
+            flex-basis: 40%;
+            span {
+              font-weight: 900;
+            }
+            .block {
+              display: block;
+              margin: 0;
+              padding: 0;
+            }
+          }
+          p.span {
+            font-weight: 900;
+          }
+        }
+      }
+      .single-api:hover {
+        background-color: rgba(108, 186, 1, 0.25);
+        border-radius: 10px;
+      }
+    }
+  }
+}

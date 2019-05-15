@@ -43,6 +43,15 @@ router.get(`/random`, async (req, res) => {
     .skip(randomize(quotes));
   res.send(randomQuote);
 });
+/* router.get(`/:limit?`, async (req, res) => {
+  const quotes = await Quote.find();
+  console.log(req.params.limit);
+
+  const limitsQoute = await Quote.find()
+    .limit(parseInt(req.params.limit))
+    .skip(randomize(quotes));
+  res.send(limitsQoute);
+}); */
 /* END OF GET ACTIONS */
 /* POST ACTIONS START */
 

@@ -1,0 +1,56 @@
+extends layout
+
+block menu
+    include menu.pug
+
+block content
+    div.content-box
+        div.api-box
+            div.type-box
+                h2 GET API requests
+                div.single-api
+                    a(href='/api/quotes' target='blank')='/api/quotes'
+                    div.description
+                        p returns an array of all quotes in database
+                div.single-api
+                    a(href='/api/quotes/easy' target='blank')='/api/quotes/easy'
+                    div.description
+                        p returns an array of one quote with <span>easy</span> difficulty to guess
+                div.single-api
+                    a(href='/api/quotes/medium' target='blank')='/api/quotes/medium'
+                    div.description
+                        p returns an array of one quote with <span>medium</span> difficulty to guess
+                div.single-api
+                    a(href='/api/quotes/hard' target='blank')='/api/quotes/hard'
+                    div.description
+                        p returns an array of one quote with <span>hard</span> difficulty to guess
+                div.single-api
+                    a(href='/api/quotes/random' target='blank')='/api/quotes/random'
+                    div.description
+                        p returns an array with one quote of <span>random</span> difficulty to guess
+                div.single-api
+                    a(href='/api/sysinfo' target='blank')='/api/sysinfo'
+                    div.description
+                        p returns an objects with system parameters
+            div.type-box
+                h2 POST API requests
+                div.single-api
+                    a()='/api/games/new'
+                    div.description
+                        p.block New endpoint expects an object like: 
+                        p.span {"player": "JohnSnow", "level": "easy", "lang": "eng"}
+                        p.block it returns:
+                        p.span {"gameId": "12345","lettersToguess": ["encoded"],"lifes": 4}
+                div.single-api
+                    a()='/api/games/check'
+                    div.description
+                        p.block Check endpoint for checking the letters in searched phrase expects an object like: 
+                        p.span {"gameId": "12345","letter": "z"}
+                        p.block it returns:
+                        p.span {"arrayToRespond": [4,23],"stateOfGame": ""}
+                        p.block numbers in array to respond are the places of given letter in searched phrase
+                        p.block stateOfGame might be: <span>alive, dead, win</span> or<span> duplicate </span>(in case if the passed letter was sended earlier)
+
+
+        
+

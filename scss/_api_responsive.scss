@@ -1,0 +1,62 @@
+@import "mixins";
+@import "variables";
+
+@media all and (max-width: 1600px) {
+}
+
+@media all and (max-width: 1200px) {
+}
+
+@media all and (max-width: 992px) {
+}
+
+@media all and (max-width: 768px) {
+  .content-box {
+    .api-box {
+      width: 100%;
+      .type-box {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 10px;
+        h2 {
+          text-align: center;
+          flex-basis: 100%;
+          margin-left: 0;
+          margin-right: 0;
+        }
+        .single-api {
+          flex-basis: 100%;
+          padding: 0px 10px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-flow: row wrap;
+          a {
+            flex-basis: 100%;
+            font-size: 14px;
+            text-align: center;
+            background-color: rgba(108, 186, 1, 0.15);
+          }
+          .description {
+            text-align: center;
+            flex-basis: 100%;
+            width: 100%;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            align-items: flex-start;
+            p {
+              flex-basis: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media all and (max-width: 554px) {
+}

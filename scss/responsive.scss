@@ -1,10 +1,9 @@
-@import "mixins";
-@import 'variables';
+@import "variables";
 
+//Responsive styles
 
-/* Login Page */
+@import "main_responsive";
 
-        //Responsive styles
+@import "header_responsive";
 
-
-/* End of login page */
+@import "api_responsive";

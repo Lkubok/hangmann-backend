@@ -1,10 +1,18 @@
 const express = require("express");
+const { Quote, validate } = require("../models/quote");
 const router = express.Router();
 const config = require("config");
 const site = config.get("site");
 
+/* Counting quotes in db */
+
+async function getQuotes() {
+  const quotes = await Quote.find().sort("dateInsert");
+  return quotes.length;
+}
+
 router.get("/", (req, res) => {
-  res.render("main", { title: site.title, message: "STRING!" }); // Remove STRING in FUTURE!!!!!!!!!!!!!!
+  res.redirect("/About");
 });
 router.get("/SysInfo", (req, res) => {
   res.render("sysinfo", {
@@ -13,16 +21,14 @@ router.get("/SysInfo", (req, res) => {
   });
 });
 router.get("/About", (req, res) => {
-  res.render("about", { title: site.title, message: "ABOUT" });
+  res.render("about", { title: site.title, message: "About" });
 });
-router.get("/Statistics", (req, res) => {
-  res.render("statistics", { title: site.title, message: "STATS" });
+
+router.get("/AddQuote", (req, res) => {
+  res.render("addquote", { title: site.title, message: "AddQuote" });
 });
-router.get("/Quotes", (req, res) => {
-  res.render("quotes", { title: site.title, message: "QUOTES" });
-});
-router.get("/Users", (req, res) => {
-  res.render("users", { title: site.title, message: "USERS" });
+router.get("/Api", (req, res) => {
+  res.render("api", { title: site.title, message: "Users" });
 });
 
 module.exports = router;

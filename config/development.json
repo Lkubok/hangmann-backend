@@ -1,6 +1,5 @@
 {
-    "site":{
-        "title": "Hangman - Backend API - info"
-    }
-
+  "site": {
+    "title": "Hangmann API"
+  }
 }
