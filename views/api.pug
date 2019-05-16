@@ -50,6 +50,11 @@ block content
                         p.span {"arrayToRespond": [4,23],"stateOfGame": ""}
                         p.block numbers in array to respond are the places of given letter in searched phrase
                         p.block stateOfGame might be: <span>alive, dead, win</span> or<span> duplicate </span>(in case if the passed letter was sended earlier)
+                div.single-api
+                    a()='/api/quotes/add'
+                    div.description
+                        p.block Add quote endpoint for for adding quote expects an object like: 
+                        p.span {"quoteAuthor": "Gall Anonim","insertAuthor": "Lucas","quote": "Polak mądry po szkodzie","lang": "pl"}
 
 
         
