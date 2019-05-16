@@ -18,6 +18,10 @@ function sendToEndPoint(event) {
     data: JSON.stringify(object),
     contentType: "application/json"
   });
+  $("#quote").val("");
+  $("#quoteAuthor").val("");
+  $("#insertAuthor").val("");
+  $("#lang").val("");
 }
 
 form.addEventListener("submit", sendToEndPoint);
