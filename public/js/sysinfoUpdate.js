@@ -1,21 +1,29 @@
-function loadData(urlToFetch) {
+function firstLoad(urlToFetch) {
   $.getJSON(urlToFetch, function(JSONData) {
     for (let prop in JSONData) {
       $(".content-box").append(`<div class="row" id="${prop}"></div>`);
     }
     for (let prop in JSONData) {
       $(`#${prop}`)
-        .append(`<p class="bolder">${prop}: </p>`)
-        .append(`<p class="prop">${JSONData[prop]} </p>`);
+        .append(`<p id="${prop}-item" class="bolder">${prop}: </p>`)
+        .append(`<p id="${prop}-value" class="prop">${JSONData[prop]} </p>`);
     }
   });
 }
 
-loadData(url);
+function launchUpdate(urlToFetch) {
+  const timeToUpdate = document.getElementById("currentTime");
 
-setInterval(() => {
-  $(".bolder").remove();
-  $(".prop").remove();
-  $(".row").remove();
-  loadData(url);
-}, 60000); //Refreshing every one minute
+  setInterval(() => {
+    $.getJSON(urlToFetch, function(JSONData) {
+      console.log(JSONData);
+      for (let prop in JSONData) {
+        $(`#${prop}-value`).text(`${JSONData[prop]}`);
+      }
+    });
+  }, 1000);
+}
+
+firstLoad(url);
+
+launchUpdate(url);

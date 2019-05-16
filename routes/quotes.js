@@ -94,7 +94,7 @@ router.post(`/add`, async (req, res) => {
     newQuote = await newQuote.save();
     res.send({
       status: "accepted",
-      message: "Quote added to Databse",
+      message: "Quote added to Database",
       quoteObject: newQuote
     });
   }

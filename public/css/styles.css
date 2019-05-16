@@ -29,29 +29,37 @@ header {
 
 /* END OF HEADER SECTION */
 /* NAV SECTION START */
-ul {
-  display: flex;
-  flex-flow: row wrap;
-  height: 50px;
-  justify-content: flex-end;
-  align-items: center;
-  color: #e7e1e1;
-  background-color: #202328;
-  list-style-type: none;
-  margin: 0;
-  border-radius: 15px;
-  opacity: 0.85; }
-  ul li {
-    flex-basis: 10%; }
-    ul li a {
-      color: #e7e1e1;
-      font-weight: 700;
-      text-decoration: none;
-      padding: 10px;
-      transition: all 0.4s ease-in-out;
-      border-radius: 3px; }
-    ul li a:hover {
-      background-color: #6cba1c; }
+nav {
+  position: sticky;
+  top: 10px; }
+  nav ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    align-items: center;
+    color: #e7e1e1;
+    background-color: #202328;
+    list-style-type: none;
+    margin: 0;
+    border-radius: 15px;
+    opacity: 0.95;
+    margin: 0;
+    padding: 10px; }
+    nav ul li {
+      flex-basis: 10%; }
+      nav ul li a {
+        display: inline-block;
+        color: #e7e1e1;
+        padding: 15px 25px;
+        font-weight: 700;
+        text-decoration: none;
+        transition: all 0.4s ease-in-out;
+        border-radius: 3px; }
+      nav ul li a:hover {
+        background-color: #6cba1c; }
+      nav ul li a.active {
+        color: #202328;
+        background-color: #6cba1c; }
 
 /* END OF NAV SECTION */
 /* MAIN SECTION START */
@@ -77,7 +85,8 @@ body {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  margin-bottom: 20px; }
 
 /* END OF MAIN SECTION */
 /* SYSYINFO SECTION START */

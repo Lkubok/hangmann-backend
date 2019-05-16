@@ -14,7 +14,7 @@ router.get("/", (req, res) => {
     cpuModel: os.cpus()[0]["model"],
     cpuSpeed: `${os.cpus()[0]["speed"]} MHz`,
     currentDate: `${date.getFullYear()} / ${date.getMonth()} / ${date.getDay()}`,
-    currentTime: `${date.getHours()} : ${date.getMinutes()}`,
+    currentTime: `${date.getHours()} : ${date.getMinutes()} : ${date.getSeconds()}`,
     url: req.protocol + "://" + req.get("host")
   };
   res.send(sysOb);

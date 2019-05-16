@@ -1,0 +1,28 @@
+@import "variables";
+@import "mixins";
+
+@media all and (max-width: 992px) {
+  nav {
+    ul {
+      justify-content: space-between;
+      li {
+        flex-basis: 20%;
+        text-align: center;
+      }
+    }
+  }
+}
+@media all and (max-width: 554px) {
+  nav {
+    ul {
+      justify-content: space-between;
+      li {
+        a {
+          padding: 2px;
+          width: 100%;
+        }
+        flex-basis: 100%;
+      }
+    }
+  }
+}

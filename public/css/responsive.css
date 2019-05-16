@@ -83,3 +83,19 @@
           align-items: flex-start; }
           .content-box .api-box .type-box .single-api .description p {
             flex-basis: 100%; } }
+
+@media all and (max-width: 992px) {
+  nav ul {
+    justify-content: space-between; }
+    nav ul li {
+      flex-basis: 20%;
+      text-align: center; } }
+
+@media all and (max-width: 554px) {
+  nav ul {
+    justify-content: space-between; }
+    nav ul li {
+      flex-basis: 100%; }
+      nav ul li a {
+        padding: 2px;
+        width: 100%; } }

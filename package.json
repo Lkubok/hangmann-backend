@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "npm test",
-    "start": "node -r dotenv/config index.js dotenv_config_path=/config/variables.env"
+    "start": "node -r dotenv/config index.js dotenv_config_path=/config/variables.env",
+    "up": "nodemon -r dotenv/config index.js detenv_config_path=/config/variables.env"
   },
   "author": "Lukasz Kubok",
   "license": "ISC",

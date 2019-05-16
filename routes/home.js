@@ -17,18 +17,23 @@ router.get("/", (req, res) => {
 router.get("/SysInfo", (req, res) => {
   res.render("sysinfo", {
     title: site.title,
-    urlToFetch: "//" + req.get("host") + "/api/sysinfo" // without req.protocol
+    urlToFetch: "//" + req.get("host") + "/api/sysinfo", // without req.protocol
+    name: "SysInfo"
   });
 });
 router.get("/About", (req, res) => {
-  res.render("about", { title: site.title, message: "About" });
+  res.render("about", { title: site.title, message: "About", name: "About" });
 });
 
 router.get("/AddQuote", (req, res) => {
-  res.render("addquote", { title: site.title, message: "AddQuote" });
+  res.render("addquote", {
+    title: site.title,
+    message: "AddQuote",
+    name: "AddQuote"
+  });
 });
 router.get("/Api", (req, res) => {
-  res.render("api", { title: site.title, message: "Users" });
+  res.render("api", { title: site.title, message: "Api", name: "Api" });
 });
 
 module.exports = router;

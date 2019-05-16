@@ -1,30 +1,41 @@
 @import "variables";
 @import "mixins";
 
-ul {
-  display: flex;
-  flex-flow: row wrap;
-  height: 50px;
-  justify-content: flex-end;
-  align-items: center;
-  color: $white-color;
-  background-color: $dark-color;
-  list-style-type: none;
-  margin: 0;
-  border-radius: 15px;
-  opacity: 0.85;
-  li {
-    flex-basis: 10%;
-    a {
-      color: $white-color;
-      font-weight: 700;
-      text-decoration: none;
-      padding: 10px;
-      transition: all 0.4s ease-in-out;
-      border-radius: 3px;
-    }
-    a:hover {
-      background-color: $primary-color;
+nav {
+  position: sticky;
+  top: 10px;
+
+  ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    align-items: center;
+    color: $white-color;
+    background-color: $dark-color;
+    list-style-type: none;
+    margin: 0;
+    border-radius: 15px;
+    opacity: 0.95;
+    margin: 0;
+    padding: 10px;
+    li {
+      flex-basis: 10%;
+      a {
+        display: inline-block;
+        color: $white-color;
+        padding: 15px 25px;
+        font-weight: 700;
+        text-decoration: none;
+        transition: all 0.4s ease-in-out;
+        border-radius: 3px;
+      }
+      a:hover {
+        background-color: $primary-color;
+      }
+      a.active {
+        color: $dark-color;
+        background-color: $primary-color;
+      }
     }
   }
 }
