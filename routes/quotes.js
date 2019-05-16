@@ -51,7 +51,7 @@ router.get(`/random`, async (req, res) => {
     .limit(parseInt(req.params.limit))
     .skip(randomize(quotes));
   res.send(limitsQoute);
-}); */
+}); */ 1;
 /* END OF GET ACTIONS */
 /* POST ACTIONS START */
 
