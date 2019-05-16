@@ -1,0 +1,42 @@
+@import "variables";
+@import "mixins";
+
+.content-box {
+  @include flex-row-center-center;
+  h2 {
+    @include flex-center;
+  }
+  p.link {
+    @include flex-center;
+    @include link-lighten;
+
+    a {
+      @include monospace-link;
+    }
+  }
+  form {
+    width: 80%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    textarea {
+      @include form-field;
+    }
+    input[type="email"],
+    input[type="text"] {
+      @include form-field;
+    }
+    input[type="submit"] {
+      @include form-field;
+      font-weight: 900;
+      text-transform: uppercase;
+      color: $dark-color;
+      @include transition;
+    }
+    input[type="submit"]:hover {
+      cursor: pointer;
+      background-color: $primary-color;
+    }
+  }
+}

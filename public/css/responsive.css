@@ -74,8 +74,8 @@
           text-align: center;
           background-color: rgba(108, 186, 1, 0.15); }
         .content-box .api-box .type-box .single-api .description {
-          text-align: center;
           flex-basis: 100%;
+          text-align: center;
           width: 100%;
           display: flex;
           flex-flow: row wrap;
@@ -99,3 +99,7 @@
       nav ul li a {
         padding: 2px;
         width: 100%; } }
+
+@media all and (max-width: 992px) {
+  .content-box form {
+    width: 100%; } }

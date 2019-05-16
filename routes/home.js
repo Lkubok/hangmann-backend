@@ -29,6 +29,7 @@ router.get("/AddQuote", (req, res) => {
   res.render("addquote", {
     title: site.title,
     message: "AddQuote",
+    urlToSend: "//" + req.get("host") + "/api/quotes/add",
     name: "AddQuote"
   });
 });

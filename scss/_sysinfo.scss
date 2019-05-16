@@ -3,12 +3,9 @@
 
 .content-box {
   .row {
-    display: flex;
+    @include flex-row-center-center;
     width: 100%;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-    transition: all 0.4s ease-in-out;
+    @include transition;
     .bolder {
       font-weight: 600;
       flex-basis: 40%;

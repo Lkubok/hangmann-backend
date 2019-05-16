@@ -1,7 +1,13 @@
 extends main
 block content
     div.content-box
-        div.quotes-box
-            h1= count
-            h2 Quotes stored in database
-            h3 Actually in database are #{quoteCount} stored quotes in languages
+        h2 Add quote to database
+        form(action='' method='POST')  
+            textarea(type="text" id="quote" name="quote" placeholder="Write quote ... (minimum 5 signs)")
+            input(type="text" id="quoteAuthor" name="quoteAuthor" placeholder="Quote author ...(minimum 5 signs)")
+            input(type="text" id="insertAuthor" name="insertAuthor" placeholder="Insertion author ... (minimum 3 signs)")
+            input(type="text" id="lang" name="lang" placeholder="lang ... (from 2 to 10 signs)")
+            input(type="submit" value="Send")
+            script(src='/js/jquery-3.3.1.min.js')
+            script(type='text/javascript').var url='#{urlToSend}'
+            script(src='/js/addQuote.js')

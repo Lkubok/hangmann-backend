@@ -6,16 +6,12 @@
     width: 100%;
     .type-box {
       width: 100%;
-      display: flex;
-      flex-flow: row wrap;
-      justify-content: center;
-      align-items: center;
+      @include flex-row-center-center;
       background-color: rgba(160, 236, 54, 0);
       border-bottom: 2px solid $primary-color;
       padding-bottom: 10px;
       h2 {
-        text-align: center;
-        flex-basis: 100%;
+        @include flex-center;
         margin-left: 0;
         margin-right: 0;
       }
@@ -26,14 +22,9 @@
         justify-content: flex-start;
         align-items: center;
         flex-flow: row wrap;
-        transition: all 0.3s ease-in-out;
+        @include transition;
         a {
-          font-family: monospace;
-          flex-basis: 40%;
-          text-decoration: none;
-          font-size: 14px;
-          letter-spacing: 0.2em;
-          color: $dark-color;
+          @include monospace-link;
         }
         .description {
           flex-basis: 50%;
@@ -47,7 +38,7 @@
             font-weight: 400;
             flex-basis: 40%;
             span {
-              font-weight: 900;
+              @include bolder;
             }
             .block {
               display: block;
@@ -56,7 +47,7 @@
             }
           }
           p.span {
-            font-weight: 900;
+            @include bolder;
           }
         }
       }

@@ -5,6 +5,22 @@ block menu
 
 block content
     div.content-box
-        h1= message
+        h2 The hangmann API for hosting games from
+        p.link
+            a(href='https://hangmann-game.herokuapp.com' target='blank')='https://hangmann-game.herokuapp.com'
+        h2 GitHub repository
+        p.link 
+            a(href='https://github.com/Lkubok/hangmann-backend' target='blank')='https://github.com/Lkubok/hangmann-backend'
+        h2 Contact with author
+        p.link
+            a(href='mailto:lkubok@gmail.com' target='blank')='Lkubok@gmail.com'
+        h2 Send an message through website
+        form(action='https://formspree.io/lkubok@gmail.com' method='POST')  
+            textarea(type="text" name="name" placeholder="Write message ...")
+            input(type="email" name="_replyto" placeholder="Your E-mail ...")
+            input(type="submit" value="Send")
+        
+
+
         
 

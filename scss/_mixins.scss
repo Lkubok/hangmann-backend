@@ -1,4 +1,44 @@
-@mixin primary-margin{
-    margin-left: 250px;
-    margin-right: 250px;
+@mixin primary-margin {
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+@mixin monospace-link {
+  font-family: monospace;
+  flex-basis: 40%;
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 0.2em;
+  color: $dark-color;
+}
+
+@mixin flex-row-center-center {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+@mixin bolder {
+  font-weight: 900;
+}
+@mixin link-lighten {
+  flex-basis: 100%;
+  font-size: 14px;
+  text-align: center;
+  background-color: rgba(108, 186, 1, 0.15);
+}
+@mixin flex-center {
+  flex-basis: 100%;
+  text-align: center;
+}
+@mixin transition {
+  transition: all 0.4s ease-in-out;
+}
+@mixin form-field {
+  flex-basis: 100%;
+  border: 1px solid $primary-color;
+  background-color: rgba(108, 186, 1, 0.05);
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
 }

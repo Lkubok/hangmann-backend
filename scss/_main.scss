@@ -4,23 +4,19 @@
   box-sizing: border-box;
 }
 body {
-  margin: 0;
+  @include primary-margin;
   padding: 0;
   background-color: $white-color;
-  @include primary-margin;
   font-family: titilium-web, sans-serif;
   font-weight: 200;
   background-image: url("/img/background/full-bloom.png");
 }
 .content-box {
+  @include flex-row-center-center;
   padding: 20px;
   border: 2px solid $primary-color;
   border-radius: 10px;
   background-color: rgba(108, 186, 1, 0.05);
   margin-top: 10px;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-items: center;
   margin-bottom: 20px;
 }
