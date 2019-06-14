@@ -2261,3 +2261,81 @@
 {"level":"info","message":"Connected to database: mongodb://localhost/hangmann with mongoDB server ...","timestamp":"2019-06-12T15:47:27.547Z"}
 {"level":"info","message":"Checking if mongodb://localhost/hangmann has any collection ...","timestamp":"2019-06-12T15:47:27.547Z"}
 {"level":"info","message":"Collection exists, quotes not added","timestamp":"2019-06-12T15:47:27.886Z"}
+{"level":"info","message":"Listening on port 3001","timestamp":"2019-05-16T22:33:40.318Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-05-16T22:33:40.319Z"}
+{"level":"info","message":"Private server Key: jwtTokenToChange","timestamp":"2019-05-16T22:33:40.319Z"}
+{"level":"info","message":"Mongo URL: mongodb://localhost/hangmann","timestamp":"2019-05-16T22:33:40.319Z"}
+{"level":"info","message":"Connected to database: mongodb://localhost/hangmann with mongoDB server ...","timestamp":"2019-05-16T22:33:40.333Z"}
+{"level":"info","message":"Checking if mongodb://localhost/hangmann has any collection ...","timestamp":"2019-05-16T22:33:40.333Z"}
+{"level":"info","message":"Collection exists, quotes not added","timestamp":"2019-05-16T22:33:40.686Z"}
+{"code":"PUG:INVALID_TOKEN","msg":"Unexpected token `tag` expected `text`, `interpolated-code`, `code`, `:`, `slash`, `newline` or `eos`","line":13,"column":42,"filename":"/home/lucas/dane/PROJEKTY/Hangman-backend/views/addquote.pug"}
+{"level":"info","message":"Listening on port 3001","timestamp":"2019-05-16T22:34:09.400Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-05-16T22:34:09.401Z"}
+{"level":"info","message":"Private server Key: jwtTokenToChange","timestamp":"2019-05-16T22:34:09.401Z"}
+{"level":"info","message":"Mongo URL: mongodb://localhost/hangmann","timestamp":"2019-05-16T22:34:09.401Z"}
+{"level":"info","message":"Connected to database: mongodb://localhost/hangmann with mongoDB server ...","timestamp":"2019-05-16T22:34:09.413Z"}
+{"level":"info","message":"Checking if mongodb://localhost/hangmann has any collection ...","timestamp":"2019-05-16T22:34:09.414Z"}
+{"level":"info","message":"Collection exists, quotes not added","timestamp":"2019-05-16T22:34:09.743Z"}
+{"code":"PUG:INVALID_TOKEN","msg":"Unexpected token `tag` expected `text`, `interpolated-code`, `code`, `:`, `slash`, `newline` or `eos`","line":13,"column":42,"filename":"/home/lucas/dane/PROJEKTY/Hangman-backend/views/addquote.pug"}
+{"code":"PUG:INVALID_TOKEN","msg":"Unexpected token `tag` expected `text`, `interpolated-code`, `code`, `:`, `slash`, `newline` or `eos`","line":13,"column":42,"filename":"/home/lucas/dane/PROJEKTY/Hangman-backend/views/addquote.pug"}
+{"level":"info","message":"Listening on port 3001","timestamp":"2019-05-16T22:34:51.418Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-05-16T22:34:51.419Z"}
+{"level":"info","message":"Private server Key: jwtTokenToChange","timestamp":"2019-05-16T22:34:51.419Z"}
+{"level":"info","message":"Mongo URL: mongodb://localhost/hangmann","timestamp":"2019-05-16T22:34:51.419Z"}
+{"level":"info","message":"Connected to database: mongodb://localhost/hangmann with mongoDB server ...","timestamp":"2019-05-16T22:34:51.431Z"}
+{"level":"info","message":"Checking if mongodb://localhost/hangmann has any collection ...","timestamp":"2019-05-16T22:34:51.432Z"}
+{"level":"info","message":"Collection exists, quotes not added","timestamp":"2019-05-16T22:34:51.785Z"}
+{"code":"PUG:INVALID_TOKEN","msg":"Unexpected token `tag` expected `text`, `interpolated-code`, `code`, `:`, `slash`, `newline` or `eos`","line":13,"column":42,"filename":"/home/lucas/dane/PROJEKTY/Hangman-backend/views/addquote.pug"}
+{"code":"PUG:INVALID_TOKEN","msg":"Unexpected token `tag` expected `text`, `interpolated-code`, `code`, `:`, `slash`, `newline` or `eos`","line":13,"column":42,"filename":"/home/lucas/dane/PROJEKTY/Hangman-backend/views/addquote.pug"}
+{"code":"PUG:INVALID_TOKEN","msg":"Unexpected token `tag` expected `text`, `interpolated-code`, `code`, `:`, `slash`, `newline` or `eos`","line":13,"column":42,"filename":"/home/lucas/dane/PROJEKTY/Hangman-backend/views/addquote.pug"}
+{"level":"info","message":"Listening on port 3001","timestamp":"2019-05-16T22:36:03.676Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-05-16T22:36:03.677Z"}
+{"level":"info","message":"Private server Key: jwtTokenToChange","timestamp":"2019-05-16T22:36:03.677Z"}
+{"level":"info","message":"Mongo URL: mongodb://localhost/hangmann","timestamp":"2019-05-16T22:36:03.677Z"}
+{"level":"info","message":"Connected to database: mongodb://localhost/hangmann with mongoDB server ...","timestamp":"2019-05-16T22:36:03.703Z"}
+{"level":"info","message":"Checking if mongodb://localhost/hangmann has any collection ...","timestamp":"2019-05-16T22:36:03.703Z"}
+{"level":"info","message":"Collection exists, quotes not added","timestamp":"2019-05-16T22:36:04.078Z"}
+{"code":"PUG:INVALID_TOKEN","msg":"Unexpected token `tag` expected `text`, `interpolated-code`, `code`, `:`, `slash`, `newline` or `eos`","line":13,"column":42,"filename":"/home/lucas/dane/PROJEKTY/Hangman-backend/views/addquote.pug"}
+{"code":"PUG:INVALID_TOKEN","msg":"Unexpected token `tag` expected `text`, `interpolated-code`, `code`, `:`, `slash`, `newline` or `eos`","line":13,"column":42,"filename":"/home/lucas/dane/PROJEKTY/Hangman-backend/views/addquote.pug"}
+{"level":"info","message":"Listening on port 3001","timestamp":"2019-05-16T22:36:49.402Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-05-16T22:36:49.403Z"}
+{"level":"info","message":"Private server Key: jwtTokenToChange","timestamp":"2019-05-16T22:36:49.403Z"}
+{"level":"info","message":"Mongo URL: mongodb://localhost/hangmann","timestamp":"2019-05-16T22:36:49.403Z"}
+{"level":"info","message":"Connected to database: mongodb://localhost/hangmann with mongoDB server ...","timestamp":"2019-05-16T22:36:49.415Z"}
+{"level":"info","message":"Checking if mongodb://localhost/hangmann has any collection ...","timestamp":"2019-05-16T22:36:49.415Z"}
+{"level":"info","message":"Collection exists, quotes not added","timestamp":"2019-05-16T22:36:49.766Z"}
+{"code":"PUG:INVALID_TOKEN","msg":"Unexpected token `tag` expected `text`, `interpolated-code`, `code`, `:`, `slash`, `newline` or `eos`","line":13,"column":42,"filename":"/home/lucas/dane/PROJEKTY/Hangman-backend/views/addquote.pug"}
+{"level":"info","message":"Listening on port 3001","timestamp":"2019-05-16T22:36:58.010Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-05-16T22:36:58.010Z"}
+{"level":"info","message":"Private server Key: jwtTokenToChange","timestamp":"2019-05-16T22:36:58.010Z"}
+{"level":"info","message":"Mongo URL: mongodb://localhost/hangmann","timestamp":"2019-05-16T22:36:58.010Z"}
+{"level":"info","message":"Connected to database: mongodb://localhost/hangmann with mongoDB server ...","timestamp":"2019-05-16T22:36:58.025Z"}
+{"level":"info","message":"Checking if mongodb://localhost/hangmann has any collection ...","timestamp":"2019-05-16T22:36:58.026Z"}
+{"level":"info","message":"Collection exists, quotes not added","timestamp":"2019-05-16T22:36:58.363Z"}
+{"code":"PUG:INVALID_TOKEN","msg":"Unexpected token `tag` expected `text`, `interpolated-code`, `code`, `:`, `slash`, `newline` or `eos`","line":13,"column":42,"filename":"/home/lucas/dane/PROJEKTY/Hangman-backend/views/addquote.pug"}
+{"code":"PUG:INVALID_TOKEN","msg":"Unexpected token `tag` expected `text`, `interpolated-code`, `code`, `:`, `slash`, `newline` or `eos`","line":13,"column":42,"filename":"/home/lucas/dane/PROJEKTY/Hangman-backend/views/addquote.pug"}
+{"level":"info","message":"Listening on port 3001","timestamp":"2019-05-16T22:37:45.599Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-05-16T22:37:45.600Z"}
+{"level":"info","message":"Private server Key: jwtTokenToChange","timestamp":"2019-05-16T22:37:45.600Z"}
+{"level":"info","message":"Mongo URL: mongodb://localhost/hangmann","timestamp":"2019-05-16T22:37:45.600Z"}
+{"level":"info","message":"Connected to database: mongodb://localhost/hangmann with mongoDB server ...","timestamp":"2019-05-16T22:37:45.615Z"}
+{"level":"info","message":"Checking if mongodb://localhost/hangmann has any collection ...","timestamp":"2019-05-16T22:37:45.615Z"}
+{"level":"info","message":"Collection exists, quotes not added","timestamp":"2019-05-16T22:37:45.999Z"}
+{"code":"PUG:INVALID_TOKEN","msg":"Unexpected token `tag` expected `text`, `interpolated-code`, `code`, `:`, `slash`, `newline` or `eos`","line":13,"column":42,"filename":"/home/lucas/dane/PROJEKTY/Hangman-backend/views/addquote.pug"}
+{"code":"PUG:INVALID_TOKEN","msg":"Unexpected token `tag` expected `text`, `interpolated-code`, `code`, `:`, `slash`, `newline` or `eos`","line":13,"column":42,"filename":"/home/lucas/dane/PROJEKTY/Hangman-backend/views/addquote.pug"}
+{"code":"PUG:INVALID_TOKEN","msg":"Unexpected token `tag` expected `text`, `interpolated-code`, `code`, `:`, `slash`, `newline` or `eos`","line":13,"column":42,"filename":"/home/lucas/dane/PROJEKTY/Hangman-backend/views/addquote.pug"}
+{"level":"info","message":"Listening on port 3001","timestamp":"2019-05-16T22:39:02.408Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-05-16T22:39:02.409Z"}
+{"level":"info","message":"Private server Key: jwtTokenToChange","timestamp":"2019-05-16T22:39:02.409Z"}
+{"level":"info","message":"Mongo URL: mongodb://localhost/hangmann","timestamp":"2019-05-16T22:39:02.409Z"}
+{"level":"info","message":"Connected to database: mongodb://localhost/hangmann with mongoDB server ...","timestamp":"2019-05-16T22:39:02.424Z"}
+{"level":"info","message":"Checking if mongodb://localhost/hangmann has any collection ...","timestamp":"2019-05-16T22:39:02.425Z"}
+{"level":"info","message":"Collection exists, quotes not added","timestamp":"2019-05-16T22:39:02.810Z"}
+{"code":"PUG:INVALID_TOKEN","msg":"Unexpected token `tag` expected `text`, `interpolated-code`, `code`, `:`, `slash`, `newline` or `eos`","line":13,"column":42,"filename":"/home/lucas/dane/PROJEKTY/Hangman-backend/views/addquote.pug"}
+{"level":"info","message":"Listening on port 3001","timestamp":"2019-05-16T22:39:59.142Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-05-16T22:39:59.142Z"}
+{"level":"info","message":"Private server Key: jwtTokenToChange","timestamp":"2019-05-16T22:39:59.142Z"}
+{"level":"info","message":"Mongo URL: mongodb://localhost/hangmann","timestamp":"2019-05-16T22:39:59.142Z"}
+{"level":"info","message":"Connected to database: mongodb://localhost/hangmann with mongoDB server ...","timestamp":"2019-05-16T22:39:59.155Z"}
+{"level":"info","message":"Checking if mongodb://localhost/hangmann has any collection ...","timestamp":"2019-05-16T22:39:59.155Z"}
+{"level":"info","message":"Collection exists, quotes not added","timestamp":"2019-05-16T22:39:59.495Z"}
