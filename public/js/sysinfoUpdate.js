@@ -27,3 +27,10 @@ function launchUpdate(urlToFetch) {
 firstLoad(url);
 
 launchUpdate(url);
+
+console.dir(document);
+console.table(["name", "lucas"]);
+
+localStorage.setItem("name", "John");
+
+document.cookie = "username=John Doe";
