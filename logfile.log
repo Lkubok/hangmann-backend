@@ -2367,3 +2367,11 @@
 {"level":"info","message":"Connected to database: mongodb://localhost/hangmann with mongoDB server ...","timestamp":"2019-07-09T19:19:56.711Z"}
 {"level":"info","message":"Checking if mongodb://localhost/hangmann has any collection ...","timestamp":"2019-07-09T19:19:56.711Z"}
 {"level":"info","message":"Collection exists, quotes not added","timestamp":"2019-07-09T19:19:57.048Z"}
+{"level":"info","message":"Listening on port 3001","timestamp":"2019-07-23T15:23:04.313Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-07-23T15:23:04.313Z"}
+{"level":"info","message":"Private server Key: jwtTokenToChange","timestamp":"2019-07-23T15:23:04.314Z"}
+{"level":"info","message":"Mongo URL: mongodb://localhost/hangmann","timestamp":"2019-07-23T15:23:04.314Z"}
+{"level":"info","message":"Connected to database: mongodb://localhost/hangmann with mongoDB server ...","timestamp":"2019-07-23T15:23:04.332Z"}
+{"level":"info","message":"Checking if mongodb://localhost/hangmann has any collection ...","timestamp":"2019-07-23T15:23:04.333Z"}
+{"level":"info","message":"Collection exists, quotes not added","timestamp":"2019-07-23T15:23:04.642Z"}
+{"level":"info","message":"Deleted game with id: 5d372685254ed62afcd7bb9c after 10 minutes","timestamp":"2019-07-23T15:33:49.980Z"}
