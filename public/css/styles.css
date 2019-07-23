@@ -54,7 +54,7 @@ nav {
         padding: 15px 25px;
         font-weight: 700;
         text-decoration: none;
-        transition: all 0.4s ease-in-out;
+        transition: color, background-color 0.4s ease-in-out;
         border-radius: 3px; }
       nav ul li a:hover {
         background-color: #6cba1c; }
