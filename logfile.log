@@ -2375,3 +2375,4 @@
 {"level":"info","message":"Checking if mongodb://localhost/hangmann has any collection ...","timestamp":"2019-07-23T15:23:04.333Z"}
 {"level":"info","message":"Collection exists, quotes not added","timestamp":"2019-07-23T15:23:04.642Z"}
 {"level":"info","message":"Deleted game with id: 5d372685254ed62afcd7bb9c after 10 minutes","timestamp":"2019-07-23T15:33:49.980Z"}
+{"level":"info","message":"Deleted game with id: 5d374d28254ed62afcd7bb9e after 10 minutes","timestamp":"2019-07-23T18:18:40.712Z"}

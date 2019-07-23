@@ -80,12 +80,12 @@ router.post("/new", async (req, res) => {
     lang: lang,
     guessedLetters: 0,
     sendedLetters: [],
-    lifes: parseFloat(GAME_LIFES)
+    lifes: parseInt(GAME_LIFES)
   });
   let sendGame = {
     gameId: game.gameId,
     lettersToguess: encodedQuote,
-    lifes: parseFloat(GAME_LIFES)
+    lifes: parseInt(GAME_LIFES)
   };
   // finding a game to delete after period of time
   let gameIdToDel = game._id;
@@ -143,11 +143,11 @@ router.post("/check", async (req, res) => {
       //Setting The state of Game, checking is user alive or dead
       var stateOfGame = "win";
     } else {
-      var stateOfGame = "alive";
+      stateOfGame = "alive";
       if (game.lifes <= 0) {
-        var stateOfGame = "dead";
+        stateOfGame = "dead";
       } else {
-        var stateOfGame = "alive";
+        stateOfGame = "alive";
       }
     }
 
