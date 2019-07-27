@@ -10,11 +10,31 @@ const randomize = require("../functions/randomize");
 
 /* START OF GET HTTP ACTIONS */
 // /api/quotes - returns all quotes in DB
-router.get("/", async (req, res) => {
+router.get("/all", async (req, res) => {
   const quotes = await Quote.find().sort("dateInsert");
   res.send(quotes);
 });
 //API's are returning always one quote
+router.get(`/single/id/:id`, async (req, res) => {
+  const singleQuote = await Quote.findById({ _id: req.params.id });
+  if (!singleQuote) {
+    res.status(400).send("No quote with given id");
+  } else {
+    res.send(singleQuote);
+  }
+});
+router.get(`/page/:page/pageLimit/:pageLimit`, async (req, res) => {
+  const { page, pageLimit } = req.params;
+  const quotesAll = await Quote.find();
+  if (page * pageLimit > quotesAll.length) {
+    res.status(400).send("Error: there are no quotes in this scope");
+  } else {
+    const quotesPerPageToSend = await Quote.find()
+      .skip(page * pageLimit)
+      .limit(parseInt(pageLimit));
+    res.send(quotesPerPageToSend);
+  }
+});
 router.get(`/easy`, async (req, res) => {
   const quotes = await Quote.find({ difficulty: "easy" }).sort();
   const randomQuote = await Quote.find({ difficulty: "easy" })
@@ -101,4 +121,36 @@ router.post(`/add`, async (req, res) => {
 });
 
 /* END OF POST ACTIONS */
+
+/* PUT ACTIONS */
+
+router.put(`/update`, async (req, res) => {
+  const quoteToUpdate = await Quote.findById({ _id: req.body.id });
+  if (!quoteToUpdate) {
+    res.status(400).send("No quote with given ID");
+  } else {
+    const { error } = validate(req.body.quote);
+    const { quoteAuthor, insertAuthor, quote, lang } = req.body.quote;
+    if (error) return res.status(400).send(error.details[0].message);
+    quoteToUpdate.set({
+      quoteAuthor: quoteAuthor,
+      insertAuthor: insertAuthor,
+      quote: quote,
+      lang: lang,
+      dateModify: Date.now()
+    });
+    const result = await quoteToUpdate.save();
+    res.send({ status: "updated", result });
+  }
+});
+router.delete(`/delete`, async (req, res) => {
+  const quote = await Quote.findById({ _id: req.body.id });
+  if (!quote) {
+    res.status(400).send("No quote with given id");
+  } else {
+    await Quote.findByIdAndDelete({ _id: req.body.id });
+
+    res.send({ status: "deleted" });
+  }
+});
 module.exports = router;

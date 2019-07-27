@@ -1,6 +1,6 @@
 const { Game, validate, validateCheck } = require("../models/game");
 const { Quote } = require("../models/quote");
-const mongoose = require("mongoose");
+// const mongoose = require("mongoose");
 const express = require("express");
 const router = express.Router();
 const randomize = require("../functions/randomize");
@@ -154,6 +154,16 @@ router.post("/check", async (req, res) => {
     await game.save();
 
     res.send({ arrayToRespond, stateOfGame }); // Sending the state of game to browser and position of guessed letters
+  }
+});
+
+router.delete("/delete", async (req, res) => {
+  const game = await Game.findOne({ gameId: req.body.gameId });
+  if (!game) {
+    res.status(400).send("Game with given id not found");
+  } else {
+    await Game.findOneAndDelete({ gameId: req.body.gameId });
+    res.send({ status: "deleted" });
   }
 });
 

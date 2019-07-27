@@ -9,9 +9,17 @@ block content
             div.type-box
                 h2 GET API requests
                 div.single-api
-                    a(href='/api/quotes' target='blank')='/api/quotes'
+                    a(href='/api/quotes' target='blank')='/api/quotes/all'
                     div.description
                         p returns an array of all quotes in database
+                div.single-api
+                    a(href='/api/quotes/single/id/idValue' target='blank')='/api/quotes/single/id/IdValue'
+                    div.description
+                        p returns an array of one quote with <span>given</span> ID
+                div.single-api
+                    a(href='/api/quotes/page/2/pageLimit/15' target='blank')='/api/quotes/page/2/pageLimit/15'
+                    div.description
+                        p returns an array of one quotes on specified <span>page</span> with spicified <span>pageLimit</span>
                 div.single-api
                     a(href='/api/quotes/easy' target='blank')='/api/quotes/easy'
                     div.description
@@ -55,3 +63,29 @@ block content
                     div.description
                         p.block Add quote endpoint for adding quote expects an object like: 
                         p.span {"quoteAuthor": "Sansa Stark","insertAuthor": "Arya Stark","quote": "This is the end","lang": "eng"}
+            div.type-box
+                h2 PUT API requests
+                div.single-api
+                    a()='/api/quotes/update'
+                    div.description
+                        p.block Update endpoint expects an object like: 
+                        p.span {"id": "123..","quote":{"quoteAuthor": "john","lang": "eng","insertAuthor": "admin","quote": "abc.."}}
+                        p.block it returns:
+                        p.span {"status": "updated", result: ".."}
+                        p.block in result there is an object with new quote
+            div.type-box
+                h2 DELETE API requests
+                div.single-api
+                    a()='/api/quotes/delete'
+                    div.description
+                        p.block Delete quote endpoint expects an object like: 
+                        p.span {"id": "123.."}
+                        p.block it returns:
+                        p.span {"status": "deleted"}
+                div.single-api
+                    a()='/api/games/delete'
+                    div.description
+                        p.block Delete game endpoint expects an object like: 
+                        p.span {"gameId": "123.."}
+                        p.block it returns:
+                        p.span {"status": "deleted"}

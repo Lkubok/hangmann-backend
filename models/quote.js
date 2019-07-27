@@ -24,6 +24,10 @@ const Quote = mongoose.model(
       type: Date,
       default: Date.now()
     },
+    dateModify: {
+      type: Date,
+      default: Date.now()
+    },
     lang: {
       type: String,
       minlength: 2,
