@@ -3288,3 +3288,10 @@
 {"level":"info","message":"Connected to database: mongodb://localhost/hangmann with mongoDB server ...","timestamp":"2019-07-27T19:42:45.965Z"}
 {"level":"info","message":"Checking if mongodb://localhost/hangmann has any collection ...","timestamp":"2019-07-27T19:42:45.965Z"}
 {"level":"info","message":"Collection exists, quotes not added","timestamp":"2019-07-27T19:42:46.377Z"}
+{"level":"info","message":"Listening on port 3001","timestamp":"2019-07-27T23:12:01.250Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-07-27T23:12:01.250Z"}
+{"level":"info","message":"Private server Key: jwtTokenToChange","timestamp":"2019-07-27T23:12:01.250Z"}
+{"level":"info","message":"Mongo URL: mongodb://localhost/hangmann","timestamp":"2019-07-27T23:12:01.250Z"}
+{"level":"info","message":"Connected to database: mongodb://localhost/hangmann with mongoDB server ...","timestamp":"2019-07-27T23:12:01.270Z"}
+{"level":"info","message":"Checking if mongodb://localhost/hangmann has any collection ...","timestamp":"2019-07-27T23:12:01.271Z"}
+{"level":"info","message":"Collection exists, quotes not added","timestamp":"2019-07-27T23:12:01.587Z"}
