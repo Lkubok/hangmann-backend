@@ -85,7 +85,7 @@ router.post(`/add`, async (req, res) => {
     quotesArray.push(element.quote);
   });
   if (quotesArray.includes(req.body.quote.toLowerCase())) {
-    res.send({
+    res.status(400).send({
       status: "rejected",
       message: "Quote already in Database"
     });
@@ -109,6 +109,7 @@ router.post(`/add`, async (req, res) => {
       insertAuthor: req.body.insertAuthor,
       quote: quoteToInsert,
       lang: req.body.lang,
+      dateInsert: Date.now(),
       difficulty: writeDifficulty(quoteToInsert)
     });
     newQuote = await newQuote.save();
