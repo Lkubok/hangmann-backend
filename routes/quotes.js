@@ -15,7 +15,7 @@ router.get("/all", async (req, res) => {
   res.send(quotes);
 });
 //API's are returning always one quote
-router.get(`/single/id/:id`, async (req, res) => {
+router.get(`/single/:id`, async (req, res) => {
   const singleQuote = await Quote.findById({ _id: req.params.id });
   if (!singleQuote) {
     res.status(400).send("No quote with given id");
