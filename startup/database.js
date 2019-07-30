@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const { Quote, validate } = require("../models/quote");
+const { Quote } = require("../models/quote");
 const read = require("read-data");
 const data = read.sync("before_run/quotes.json"); //Its the first step, we will never modify this file, so the method is sync, not async in this case
 
@@ -10,11 +10,7 @@ let arrayToTest = [];
 let quotesToSend = [];
 
 data.map(el => {
-  if (arrayToTest.includes(el.quoteText)) {
-    winston.info("duplicate: ", el.quoteText);
-  } else {
-    quotesToSend.push(el);
-  }
+  if (!arrayToTest.includes(el.quoteText)) quotesToSend.push(el);
   arrayToTest.push(el.quoteText);
 });
 

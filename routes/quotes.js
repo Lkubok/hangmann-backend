@@ -141,7 +141,7 @@ router.put(`/update`, async (req, res) => {
       dateModify: Date.now()
     });
     const result = await quoteToUpdate.save();
-    res.send({ status: "updated", result });
+    res.status(200).send({ message: "updated", result });
   }
 });
 router.delete(`/delete`, async (req, res) => {
@@ -151,7 +151,7 @@ router.delete(`/delete`, async (req, res) => {
   } else {
     await Quote.findByIdAndDelete({ _id: req.body.id });
 
-    res.send({ status: "deleted" });
+    res.send({ message: "deleted" });
   }
 });
 module.exports = router;
