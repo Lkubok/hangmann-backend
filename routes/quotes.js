@@ -141,7 +141,7 @@ router.put(`/update`, async (req, res) => {
       dateModify: Date.now()
     });
     const result = await quoteToUpdate.save();
-    res.send({ status: "updated", result });
+    res.status(200).send({ status: "updated", result });
   }
 });
 router.delete(`/delete`, async (req, res) => {
