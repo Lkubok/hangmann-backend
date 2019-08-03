@@ -94,7 +94,8 @@ router.post("/new", async (req, res) => {
   //Deleting the game from DB
   setTimeout(async () => {
     //Deleting the inactive game from DB
-    const gameToDelete = await Game.findByIdAndDelete(gameIdToDel);
+    const gameToDelete = await Game.findById(gameIdToDel);
+    if (gameToDelete) await Game.findByIdAndDelete(gameIdToDel);
     winston.info(
       `Deleted game with id: ${gameToDelete._id} after ${DB_GAME_TIMEOUT /
         60000} minutes`
