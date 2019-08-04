@@ -14,6 +14,14 @@ router.get("/all", async (req, res) => {
   const quotes = await Quote.find().sort("dateInsert");
   res.send(quotes);
 });
+router.get("/langs", async (req, res) => {
+  let langs = [];
+  const quotes = await Quote.find().sort("dateInsert");
+  quotes.forEach(el => {
+    if (!langs.includes(el.lang)) langs.push(el.lang);
+  });
+  res.status(200).send(langs);
+});
 //API's are returning always one quote
 router.get(`/single/:id`, async (req, res) => {
   const singleQuote = await Quote.findById({ _id: req.params.id });
