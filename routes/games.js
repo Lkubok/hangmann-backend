@@ -1,5 +1,6 @@
 const { Game, validate, validateCheck } = require("../models/game");
 const { Quote } = require("../models/quote");
+const { GameScore, validateGameScore } = require("../models/gameScore");
 // const mongoose = require("mongoose");
 const express = require("express");
 const router = express.Router();
@@ -44,6 +45,33 @@ const arrayOfLetters = [
   "ż"
 ];
 
+router.post("/stats", async (req, res) => {
+  const { error } = validateGameScore(req.body);
+  if (error) return res.status(400).send(error.details[0].message);
+  const {
+    gameId,
+    player,
+    userEmail,
+    lang,
+    lifes,
+    gameTime,
+    level,
+    stateOfGame
+  } = req.body;
+  let score = new GameScore({
+    gameId: gameId,
+    player: player,
+    userEmail: userEmail,
+    difficulty: level,
+    lang: lang,
+    lifes: parseInt(lifes),
+    gameTime: parseInt(gameTime),
+    stateOfGame: stateOfGame
+  });
+  await score.save();
+  res.status(200).send({ message: "score added" });
+});
+
 router.post("/new", async (req, res) => {
   const { error } = validate(req.body);
   if (error) return res.status(400).send(error.details[0].message);
@@ -56,7 +84,7 @@ router.post("/new", async (req, res) => {
   const randomQuote = await Quote.find({ difficulty: level, lang: lang })
     .limit(1)
     .skip(randomize(quotesToDraw));
-  let quoteToEncode = randomQuote[0].quote; //Making an array without any letters to send to Front-end app
+  let quoteToEncode = randomQuote[0].quote;
   quoteToEncode = quoteToEncode.split("");
   let encodedQuote = [];
   let lettersToGuess = 0;
@@ -66,9 +94,6 @@ router.post("/new", async (req, res) => {
       lettersToGuess++;
     } else encodedQuote.push(element);
   });
-  console.log(quoteToEncode); // DEBUG info how it works before and after encoding - DELETE it in next revisions
-  console.log("After encoding:");
-  console.log(encodedQuote);
 
   let game = new Game({
     gameId: randomQuote[0]._id + Date.now(),
