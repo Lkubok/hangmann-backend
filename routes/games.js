@@ -74,6 +74,7 @@ router.post("/new", async (req, res) => {
     gameId: randomQuote[0]._id + Date.now(),
     player: req.body.player,
     quoteId: randomQuote[0]._id,
+    quoteAuthor: randomQuote[0].quoteAuthor,
     difficulty: level,
     quoteLength: quoteToEncode.length,
     letterToGuess: lettersToGuess,
@@ -84,22 +85,25 @@ router.post("/new", async (req, res) => {
   });
   let sendGame = {
     gameId: game.gameId,
-    lettersToguess: encodedQuote,
+    lettersToGuess: encodedQuote,
+    quoteAuthor: game.quoteAuthor,
     lifes: parseInt(GAME_LIFES)
   };
   // finding a game to delete after period of time
   let gameIdToDel = game._id;
   game = await game.save();
-  res.send(sendGame);
+  res.status(200).send(sendGame);
   //Deleting the game from DB
   setTimeout(async () => {
     //Deleting the inactive game from DB
     const gameToDelete = await Game.findById(gameIdToDel);
-    if (gameToDelete) await Game.findByIdAndDelete(gameIdToDel);
-    winston.info(
-      `Deleted game with id: ${gameToDelete._id} after ${DB_GAME_TIMEOUT /
-        60000} minutes`
-    );
+    if (gameToDelete) {
+      await Game.findByIdAndDelete(gameIdToDel);
+      winston.info(
+        `Deleted game with id: ${gameToDelete._id} after ${DB_GAME_TIMEOUT /
+          60000} minutes`
+      );
+    }
   }, DB_GAME_TIMEOUT); //stored in Einveronmental variables with dotenv
 });
 
@@ -154,7 +158,7 @@ router.post("/check", async (req, res) => {
 
     await game.save();
 
-    res.send({ arrayToRespond, stateOfGame }); // Sending the state of game to browser and position of guessed letters
+    res.send({ arrayToRespond, stateOfGame, lifes: game.lifes }); // Sending the state of game to browser and position of guessed letters
   }
 });
 

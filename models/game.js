@@ -18,6 +18,10 @@ const Game = mongoose.model(
       lowercase: true,
       trim: true
     },
+    quoteAuthor: {
+      type: String,
+      trim: true
+    },
     difficulty: {
       type: String,
       enum: ["easy", "medium", "hard"]
@@ -54,7 +58,7 @@ function validateGame(reqNewGame) {
       .max(10)
       .required(),
     lang: Joi.string()
-      .min(3)
+      .min(2)
       .max(15)
       .required()
   };
