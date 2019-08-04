@@ -58,6 +58,8 @@ router.post("/stats", async (req, res) => {
     level,
     stateOfGame
   } = req.body;
+  const quoteIdToFind = gameId.slice(0, 24);
+  const quote = await Quote.findById(quoteIdToFind);
   let score = new GameScore({
     gameId: gameId,
     player: player,
@@ -66,7 +68,8 @@ router.post("/stats", async (req, res) => {
     lang: lang,
     lifes: parseInt(lifes),
     gameTime: parseInt(gameTime),
-    stateOfGame: stateOfGame
+    stateOfGame: stateOfGame,
+    quote: quote.quote
   });
   await score.save();
   res.status(200).send({ message: "score added" });

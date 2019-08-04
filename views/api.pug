@@ -44,6 +44,10 @@ block content
                     a(href='/api/sysinfo' target='blank')='/api/sysinfo'
                     div.description
                         p returns an objects with system parameters
+                div.single-api
+                    a(href='/api/stats' target='blank')='/api/stats'
+                    div.description
+                        p returns an objects with game app statistics
             div.type-box
                 h2 POST API requests
                 div.single-api
@@ -67,6 +71,11 @@ block content
                     div.description
                         p.block Add quote endpoint for adding quote expects an object like: 
                         p.span {"quoteAuthor": "Sansa Stark","insertAuthor": "Arya Stark","quote": "This is the end","lang": "eng"}
+                div.single-api
+                    a()='/api/quotes/stats'
+                    div.description
+                        p.block Add game score endpoint expects an object like: 
+                        p.span {"gameId": "123","player": "Yoda","userEmail": "a@b.com","lang": "eng","lifes": "4","gameTime": "123446","level": "hard","stateOfGame": "win"}
             div.type-box
                 h2 PUT API requests
                 div.single-api

@@ -34,6 +34,9 @@ const GameScore = mongoose.model(
     },
     stateOfGame: {
       type: String
+    },
+    quote: {
+      type: String
     }
   })
 );
@@ -71,6 +74,10 @@ function validateGameScore(reqScore) {
       .min(2)
       .max(15)
       .required()
+    // quote: Joi.string()
+    //   .min(2)
+    //   .max(500)
+    //   .required()
   };
   return Joi.validate(reqScore, schema);
 }
