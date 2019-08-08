@@ -16,7 +16,7 @@ data.map(el => {
 
 module.exports = function() {
   mongoose
-    .connect(MONGO_URL)
+    .connect(MONGO_URL, { useNewUrlParser: true })
     .then(() => {
       winston.info(
         `Connected to database: ${MONGO_URL} with mongoDB server ...`

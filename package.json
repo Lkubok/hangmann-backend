@@ -5,15 +5,22 @@
   "main": "index.js",
   "scripts": {
     "test": "npm test",
-    "start": "node -r dotenv/config index.js dotenv_config_path=/config/variables.env",
-    "up": "nodemon -r dotenv/config index.js detenv_config_path=/config/variables.env"
+    "build": "babel index.js --out-file dindex.js",
+    "up": "nodemon index.js detenv_config_path=/config/variables.env",
+    "start": "npm run build && node dindex.js"
   },
   "author": "Lukasz Kubok",
   "license": "ISC",
   "dependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-transform-runtime": "^7.5.5",
+    "@babel/preset-es2015": "^7.0.0-beta.53",
+    "@babel/runtime": "^7.5.5",
     "auth0": "^2.18.0",
     "auth0-js": "^9.11.2",
     "bcrypt": "^3.0.6",
+    "bcrypt-nodejs": "^0.0.3",
     "compression": "^1.7.4",
     "config": "^3.2.2",
     "debug": "^4.1.1",
@@ -28,12 +35,18 @@
     "lodash": "^4.17.15",
     "mongoose": "^5.6.7",
     "morgan": "^1.9.1",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
     "pug": "^2.0.4",
     "pug-cli": "^1.0.0-alpha6",
     "read-data": "^1.1.0",
     "winston": "^2.4.4"
   },
   "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-transform-runtime": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
     "eslint": "^5.16.0",
     "eslint-plugin-react": "^7.14.3",
     "gulp": "^4.0.2",
@@ -41,6 +54,7 @@
     "gulp-sass": "^4.0.2",
     "gulp-uglify": "^3.0.2",
     "normalize.css": "^8.0.1",
+    "shx": "^0.3.2",
     "stylelint": "^10.1.0"
   }
 }
