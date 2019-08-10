@@ -4,21 +4,23 @@ var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefau
 
 var _express = _interopRequireDefault(require("express"));
 
+var _sampleModuleES = _interopRequireDefault(require("./sampleModuleES6"));
+
 require("dotenv").config(); //Configure system variables, change variables when DEPLOY!!
 
 
 var app = (0, _express["default"])();
 
-var allowCrossDomain = require("../startup/allowCrossDomain");
+var allowCrossDomain = require("./startup/allowCrossDomain");
 
 app.use(allowCrossDomain);
 
 var winston = require("winston");
 
-require("../startup/logging")(); //it must be first
+require("./startup/logging")(); //it must be first
 
 
-require("../startup/database")();
+require("./startup/database")();
 
 require("./startup/routes")(app);
 

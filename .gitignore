@@ -3,4 +3,4 @@ coverage/
 config/variables.env
 .env
 dindex.js
-disc/
+dist/

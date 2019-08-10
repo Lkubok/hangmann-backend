@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "npm test",
-    "build": "babel index.js --out-file dindex.js",
-    "up": "nodemon index.js detenv_config_path=/config/variables.env",
-    "start": "npm run build && node dindex.js"
+    "build": "babel ./src --out-dir ./dist",
+    "up": "npm run build && nodemon ./dist/index.js",
+    "start": "npm run build && node ./dist/index.js"
   },
   "author": "Lukasz Kubok",
   "license": "ISC",
