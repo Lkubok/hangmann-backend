@@ -3,7 +3,6 @@ const jwt = require('jsonwebtoken');
  
 class Auth {
   signUp(req, res) {
-    console.log(req);
     if (!req.body.username || !req.body.password) {
       res.json({success: false, msg: 'Please pass username and password.'});
     } else {
