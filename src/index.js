@@ -4,6 +4,9 @@ const app = express();
 let allowCrossDomain = require("./startup/allowCrossDomain");
 app.use(allowCrossDomain);
 const winston = require("winston");
+app.use(express.json());
+app.use(express.urlencoded({ extended: false }));
+import passportManager from './system/passport';
 
 require("./startup/logging")(); //it must be first
 require("./startup/database")();
@@ -14,6 +17,8 @@ app.set("view engine", "pug"); //Setting a html template engine, node will autom
 app.set("views", "./views"); //This is the same as default
 
 const port = process.env.PORT || process.env.SERV_PORT; // SERV_PORT is my own varaible defined to work with front-end on one environment
+
+app.use(passportManager.initialize());
 
 app.listen(port, () => {
   winston.info(`Listening on port ${port}`); // Displaying port
