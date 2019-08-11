@@ -142,14 +142,15 @@ router.post("/check", async (req, res) => {
   const letter = req.body.letter;
   const gameId = req.body.gameId;
   const game = await Game.findOne({ gameId: gameId });
-  const quote = await Quote.findOne({ _id: game.quoteId });
+  const quote = await Quote.findById(game.quoteId);
   const gameLifes = game.lifes;
   const quoteTextArray = quote.quote.split("");
   let arrayToRespond = [];
+  let stateOfGame = "";
 
   if (game.sendedLetters.includes(letter)) {
+    stateOfGame = "duplicate";
     // Comparing if sended letter wasnt sended in earlier try
-    let stateOfGame = "duplicate";
     res.send({ arrayToRespond, stateOfGame });
   } else {
     game.set({
@@ -174,7 +175,7 @@ router.post("/check", async (req, res) => {
 
     if (game.guessedLetters === game.letterToGuess) {
       //Setting The state of Game, checking is user alive or dead
-      var stateOfGame = "win";
+      stateOfGame = "win";
     } else {
       stateOfGame = "alive";
       if (game.lifes <= 0) {
