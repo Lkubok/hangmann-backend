@@ -1,6 +1,11 @@
 const { Quote, validate } = require("../models/quote");
 // const mongoose = require("mongoose");
 const express = require("express");
+
+import passportManager from "../config/passport";
+// import passport from "../config/passport";
+const { authenticate } = passportManager;
+
 const router = express.Router();
 const randomize = require("../functions/randomize");
 
@@ -10,6 +15,7 @@ const randomize = require("../functions/randomize");
 
 /* START OF GET HTTP ACTIONS */
 // /api/quotes - returns all quotes in DB
+
 router.get("/all", async (req, res) => {
   const quotes = await Quote.find().sort("dateInsert");
   res.send(quotes);
@@ -23,7 +29,7 @@ router.get("/langs", async (req, res) => {
   res.status(200).send(langs);
 });
 //API's are returning always one quote
-router.get(`/single/:id`, async (req, res) => {
+router.get(`/single/:id`, authenticate, async (req, res) => {
   const singleQuote = await Quote.findById({ _id: req.params.id });
   if (!singleQuote) {
     res.status(400).send("No quote with given id");

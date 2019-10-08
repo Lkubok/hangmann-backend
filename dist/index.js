@@ -23,6 +23,7 @@ app.use(_express["default"].json());
 app.use(_express["default"].urlencoded({
   extended: false
 }));
+app.use(_passport["default"].initialize());
 
 require("./startup/logging")(); //it must be first
 
@@ -37,7 +38,6 @@ app.set("views", "./views"); //This is the same as default
 
 var port = process.env.PORT || process.env.SERV_PORT; // SERV_PORT is my own varaible defined to work with front-end on one environment
 
-app.use(_passport["default"].initialize());
 app.listen(port, function () {
   winston.info("Listening on port ".concat(port)); // Displaying port
 
