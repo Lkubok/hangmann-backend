@@ -8,7 +8,11 @@ class Auth {
     } else {
       var newUser = new User({
         username: req.body.username,
-        password: req.body.password
+        password: req.body.password,
+        firstname: req.body.firstname,
+        lastname: req.body.lastname,
+        email: req.body.email,
+        age: req.body.age
       });
       // save the user
       newUser.save(err => {
