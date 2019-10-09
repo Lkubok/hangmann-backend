@@ -1,5 +1,6 @@
 import User from "../models/user";
 const jwt = require("jsonwebtoken");
+var jwtDecode = require("jwt-decode");
 
 class Auth {
   signUp(req, res) {
@@ -45,7 +46,9 @@ class Auth {
                 expiresIn: "30m"
               });
               // return the information including token as JSON
-              res.json({ success: true, token: "JWT " + token });
+              const decoded = jwtDecode(token);
+              const { email } = decoded;
+              res.json({ success: true, token: "JWT " + token, email: email });
             } else {
               res.status(401).send({
                 success: false,

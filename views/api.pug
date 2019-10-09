@@ -48,6 +48,11 @@ block content
                     a(href='/api/stats' target='blank')='/api/stats'
                     div.description
                         p returns an objects with game app statistics
+                div.single-api
+                    a(href='/api/islogged' target='blank')='/api/islogged'
+                    div.description
+                        p returns an info is user logged in
+                        p it expects Authorization token, Content-type: application/json
             div.type-box
                 h2 POST API requests
                 div.single-api
@@ -76,6 +81,17 @@ block content
                     div.description
                         p.block Add game score endpoint expects an object like: 
                         p.span {"gameId": "123","player": "Yoda","userEmail": "a@b.com","lang": "eng","lifes": "4","gameTime": "123446","level": "hard","stateOfGame": "win"}
+                div.single-api
+                    a()='/api/auth/signup'
+                    div.description
+                        p.block Signing Up endpoint expects: 
+                        p.span {"username": "yoda","password": "let the power be with you","firstname": "anakin","lastname": "skywalker","email": "yoda@deathstar.empire","age": "541"}
+                div.single-api
+                    a()='/api/auth/signin'
+                    div.description
+                        p.block Signing In endpoint expects: 
+                        p.span {"username": "yoda","password": "I'm your father Luc"}
+
             div.type-box
                 h2 PUT API requests
                 div.single-api
@@ -102,3 +118,10 @@ block content
                         p.span {"gameId": "123.."}
                         p.block it returns:
                         p.span {"status": "deleted"}
+            div.type-box
+                h2 Auth headers
+                div.single-api
+                    a()='HEADERS'
+                    div.description
+                        p Authorization token, Content-type: application/json
+            
