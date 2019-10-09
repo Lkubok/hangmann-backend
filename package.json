@@ -57,5 +57,18 @@
     "normalize.css": "^8.0.1",
     "shx": "^0.3.2",
     "stylelint": "^10.1.0"
-  }
+  },
+  "babel": {
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "modules": "commonjs",
+          "targets": {
+            "node": "current"
+          }
+        }
+      ]
+    ]
+  },
 }
