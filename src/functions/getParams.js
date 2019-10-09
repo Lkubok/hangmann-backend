@@ -1,8 +1,7 @@
 const os = require('os');
-const toHuman = require('./toHuman');
+import toHuman from './toHuman';
 
 module.exports = function getParams(){
-
     return sysOb = {
         freeMem: toHuman(os.freemem()),
         totalMem: toHuman(os.totalmem()),

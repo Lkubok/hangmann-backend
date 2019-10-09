@@ -1,6 +1,11 @@
 const { Quote, validate } = require("../models/quote");
 // const mongoose = require("mongoose");
 const express = require("express");
+
+import passportManager from "../config/passport";
+// import passport from "../config/passport";
+const { authenticate } = passportManager;
+
 const router = express.Router();
 const randomize = require("../functions/randomize");
 
@@ -10,6 +15,7 @@ const randomize = require("../functions/randomize");
 
 /* START OF GET HTTP ACTIONS */
 // /api/quotes - returns all quotes in DB
+
 router.get("/all", async (req, res) => {
   const quotes = await Quote.find().sort("dateInsert");
   res.send(quotes);
@@ -83,7 +89,9 @@ router.get(`/random`, async (req, res) => {
 /* END OF GET ACTIONS */
 /* POST ACTIONS START */
 
-router.post(`/add`, async (req, res) => {
+router.post(`/add`, authenticate, async (req, res) => {
+  console.log("BODY", req.body);
+  console.log("HEADERS", req.headers);
   const { error } = validate(req.body);
   if (error) return res.status(400).send(error.details[0].message);
   const quotes = await Quote.find().sort("dateInsert");
@@ -133,7 +141,7 @@ router.post(`/add`, async (req, res) => {
 
 /* PUT ACTIONS */
 
-router.put(`/update`, async (req, res) => {
+router.put(`/update`, authenticate, async (req, res) => {
   const quoteToUpdate = await Quote.findById({ _id: req.body.id });
   if (!quoteToUpdate) {
     res.status(400).send("No quote with given ID");
@@ -152,7 +160,7 @@ router.put(`/update`, async (req, res) => {
     res.status(200).send({ message: "updated", result });
   }
 });
-router.delete(`/delete`, async (req, res) => {
+router.delete(`/delete`, authenticate, async (req, res) => {
   const quote = await Quote.findById({ _id: req.body.id });
   if (!quote) {
     res.status(400).send("No quote with given id");

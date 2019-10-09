@@ -1,0 +1,1 @@
+export default {mama: 1};

@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const os = require("os");
-const toHuman = require("../functions/toHuman");
+import toHuman from '../functions/toHuman'
 
 router.get("/", (req, res) => {
   const date = new Date();
