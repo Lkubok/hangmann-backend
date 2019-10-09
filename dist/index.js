@@ -11,19 +11,19 @@ var _sampleModuleES = _interopRequireDefault(require("./sampleModuleES6"));
 require("dotenv").config(); //Configure system variables, change variables when DEPLOY!!
 
 
-var app = (0, _express["default"])();
+const app = (0, _express.default)();
 
-var allowCrossDomain = require("./startup/allowCrossDomain");
+let allowCrossDomain = require("./startup/allowCrossDomain");
 
 app.use(allowCrossDomain);
 
-var winston = require("winston");
+const winston = require("winston");
 
-app.use(_express["default"].json());
-app.use(_express["default"].urlencoded({
+app.use(_express.default.json());
+app.use(_express.default.urlencoded({
   extended: false
 }));
-app.use(_passport["default"].initialize());
+app.use(_passport.default.initialize());
 
 require("./startup/logging")(); //it must be first
 
@@ -36,14 +36,14 @@ app.set("view engine", "pug"); //Setting a html template engine, node will autom
 
 app.set("views", "./views"); //This is the same as default
 
-var port = process.env.PORT || process.env.SERV_PORT; // SERV_PORT is my own varaible defined to work with front-end on one environment
+const port = process.env.PORT || process.env.SERV_PORT; // SERV_PORT is my own varaible defined to work with front-end on one environment
 
-app.listen(port, function () {
-  winston.info("Listening on port ".concat(port)); // Displaying port
+app.listen(port, () => {
+  winston.info(`Listening on port ${port}`); // Displaying port
 
-  winston.info("Running in environment: ".concat(app.get("env"))); // Displaying ENV
+  winston.info(`Running in environment: ${app.get("env")}`); // Displaying ENV
 
-  winston.info("Private server Key: ".concat(process.env.SERV_JWT)); //DELETE       // Displaying jwtPrivateKey - Delete this in FUTURE, only for debug!!
+  winston.info(`Private server Key: ${process.env.SERV_JWT}`); //DELETE       // Displaying jwtPrivateKey - Delete this in FUTURE, only for debug!!
 
-  winston.info("Mongo URL: ".concat(process.env.MONGO_URL)); //DELETE       // Displaying URL to Database - Delete this in FUTURE, only for debug!!
+  winston.info(`Mongo URL: ${process.env.MONGO_URL}`); //DELETE       // Displaying URL to Database - Delete this in FUTURE, only for debug!!
 });
