@@ -23,3 +23,81 @@
 {"level":"info","message":"Connected to database: mongodb://localhost:27017/hangmann with mongoDB server ...","timestamp":"2019-10-09T21:05:35.896Z"}
 {"level":"info","message":"Checking if mongodb://localhost:27017/hangmann has any collection ...","timestamp":"2019-10-09T21:05:35.896Z"}
 {"level":"info","message":"Collection exists, quotes not added","timestamp":"2019-10-09T21:05:36.052Z"}
+{"level":"info","message":"Listening on port 3001","timestamp":"2019-10-10T06:52:38.284Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-10-10T06:52:38.285Z"}
+{"level":"info","message":"Private server Key: secret","timestamp":"2019-10-10T06:52:38.285Z"}
+{"level":"info","message":"Mongo URL: mongodb://localhost:27017/hangman","timestamp":"2019-10-10T06:52:38.285Z"}
+{"level":"info","message":"Listening on port 3001","timestamp":"2019-10-10T06:54:15.822Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-10-10T06:54:15.823Z"}
+{"level":"info","message":"Private server Key: secret","timestamp":"2019-10-10T06:54:15.823Z"}
+{"level":"info","message":"Mongo URL: mongodb://localhost:27017/hangman","timestamp":"2019-10-10T06:54:15.824Z"}
+{"level":"info","message":"Connected to database: mongodb://localhost:27017/hangman with mongoDB server ...","timestamp":"2019-10-10T06:54:15.852Z"}
+{"level":"info","message":"Checking if mongodb://localhost:27017/hangman has any collection ...","timestamp":"2019-10-10T06:54:15.852Z"}
+{"level":"info","message":"Collection exists, quotes not added","timestamp":"2019-10-10T06:54:16.080Z"}
+{"level":"info","message":"Deleted game with id: 5d9ee39dadf470088fdfad91 after 10 minutes","timestamp":"2019-10-10T08:04:05.369Z"}
+{"level":"info","message":"Deleted game with id: 5d9efeccadf470088fdfad95 after 10 minutes","timestamp":"2019-10-10T10:00:04.130Z"}
+{"level":"info","message":"Deleted game with id: 5d9eff78adf470088fdfad97 after 10 minutes","timestamp":"2019-10-10T10:02:56.622Z"}
+{"level":"info","message":"Deleted game with id: 5d9effe1adf470088fdfad98 after 10 minutes","timestamp":"2019-10-10T10:04:41.028Z"}
+{"level":"info","message":"Deleted game with id: 5d9effe8adf470088fdfad9a after 10 minutes","timestamp":"2019-10-10T10:04:48.211Z"}
+{"level":"info","message":"Deleted game with id: 5d9f00fcadf470088fdfad9c after 10 minutes","timestamp":"2019-10-10T10:09:24.572Z"}
+{"level":"info","message":"Deleted game with id: 5d9f011fadf470088fdfad9d after 10 minutes","timestamp":"2019-10-10T10:09:59.175Z"}
+{"level":"info","message":"Deleted game with id: 5d9f0161adf470088fdfad9f after 10 minutes","timestamp":"2019-10-10T10:11:05.040Z"}
+{"level":"info","message":"Deleted game with id: 5d9f01e8adf470088fdfada1 after 10 minutes","timestamp":"2019-10-10T10:13:20.737Z"}
+{"level":"info","message":"Deleted game with id: 5d9f01f0adf470088fdfada3 after 10 minutes","timestamp":"2019-10-10T10:13:28.254Z"}
+{"level":"info","message":"Deleted game with id: 5d9f020eadf470088fdfada5 after 10 minutes","timestamp":"2019-10-10T10:13:58.611Z"}
+{"level":"info","message":"Deleted game with id: 5d9f0288adf470088fdfada7 after 10 minutes","timestamp":"2019-10-10T10:16:00.470Z"}
+{"level":"info","message":"Deleted game with id: 5d9f03dcadf470088fdfada9 after 10 minutes","timestamp":"2019-10-10T10:21:40.017Z"}
+{"level":"info","message":"Deleted game with id: 5d9f043aadf470088fdfadaa after 10 minutes","timestamp":"2019-10-10T10:23:14.256Z"}
+{"level":"info","message":"Deleted game with id: 5d9f0474adf470088fdfadab after 10 minutes","timestamp":"2019-10-10T10:24:12.924Z"}
+{"level":"info","message":"Deleted game with id: 5d9f04bdadf470088fdfadac after 10 minutes","timestamp":"2019-10-10T10:25:25.566Z"}
+{"level":"info","message":"Deleted game with id: 5d9f055badf470088fdfadae after 10 minutes","timestamp":"2019-10-10T10:28:03.136Z"}
+{"level":"info","message":"Deleted game with id: 5d9f069dadf470088fdfadb0 after 10 minutes","timestamp":"2019-10-10T10:33:25.940Z"}
+{"level":"info","message":"Deleted game with id: 5d9f06f7adf470088fdfadb1 after 10 minutes","timestamp":"2019-10-10T10:34:55.796Z"}
+{"level":"info","message":"Deleted game with id: 5d9f073cadf470088fdfadb2 after 10 minutes","timestamp":"2019-10-10T10:36:04.821Z"}
+{"level":"info","message":"Deleted game with id: 5d9f07d2adf470088fdfadb4 after 10 minutes","timestamp":"2019-10-10T10:38:34.926Z"}
+{"level":"info","message":"Deleted game with id: 5d9f080fadf470088fdfadb5 after 10 minutes","timestamp":"2019-10-10T10:39:35.111Z"}
+{"level":"info","message":"Deleted game with id: 5d9f08d8adf470088fdfadb7 after 10 minutes","timestamp":"2019-10-10T10:42:56.671Z"}
+{"level":"info","message":"Deleted game with id: 5d9f091badf470088fdfadb8 after 10 minutes","timestamp":"2019-10-10T10:44:03.993Z"}
+{"level":"info","message":"Deleted game with id: 5d9f0922adf470088fdfadba after 10 minutes","timestamp":"2019-10-10T10:44:10.347Z"}
+{"level":"info","message":"Deleted game with id: 5d9f0947adf470088fdfadbb after 10 minutes","timestamp":"2019-10-10T10:44:47.539Z"}
+{"level":"info","message":"Deleted game with id: 5d9f09a9adf470088fdfadbc after 10 minutes","timestamp":"2019-10-10T10:46:25.726Z"}
+{"level":"info","message":"Deleted game with id: 5d9f09d0adf470088fdfadbd after 10 minutes","timestamp":"2019-10-10T10:47:04.724Z"}
+{"level":"info","message":"Deleted game with id: 5d9f0a12adf470088fdfadbe after 10 minutes","timestamp":"2019-10-10T10:48:10.832Z"}
+{"level":"info","message":"Deleted game with id: 5d9f0a3badf470088fdfadbf after 10 minutes","timestamp":"2019-10-10T10:48:51.070Z"}
+{"level":"info","message":"Deleted game with id: 5d9f0a83adf470088fdfadc0 after 10 minutes","timestamp":"2019-10-10T10:50:03.324Z"}
+{"level":"info","message":"Deleted game with id: 5d9f0ae0adf470088fdfadc2 after 10 minutes","timestamp":"2019-10-10T10:51:36.625Z"}
+{"level":"info","message":"Deleted game with id: 5d9f1985adf470088fdfadc4 after 10 minutes","timestamp":"2019-10-10T11:54:05.499Z"}
+{"level":"info","message":"Deleted game with id: 5d9f1a17adf470088fdfadc6 after 10 minutes","timestamp":"2019-10-10T11:56:31.869Z"}
+{"level":"info","message":"Deleted game with id: 5d9f1a63adf470088fdfadc8 after 10 minutes","timestamp":"2019-10-10T11:57:47.942Z"}
+{"level":"info","message":"Deleted game with id: 5d9f1a70adf470088fdfadca after 10 minutes","timestamp":"2019-10-10T11:58:00.086Z"}
+{"level":"info","message":"Deleted game with id: 5d9f1ad4adf470088fdfadcc after 10 minutes","timestamp":"2019-10-10T11:59:40.460Z"}
+{"level":"info","message":"Deleted game with id: 5d9f1b3badf470088fdfadce after 10 minutes","timestamp":"2019-10-10T12:01:23.712Z"}
+{"level":"info","message":"Deleted game with id: 5d9f1be4adf470088fdfadd0 after 10 minutes","timestamp":"2019-10-10T12:04:12.402Z"}
+{"level":"info","message":"Deleted game with id: 5d9f1c28adf470088fdfadd1 after 10 minutes","timestamp":"2019-10-10T12:05:20.366Z"}
+{"level":"info","message":"Deleted game with id: 5d9f29c7adf470088fdfadd4 after 10 minutes","timestamp":"2019-10-10T13:03:27.423Z"}
+{"level":"info","message":"Deleted game with id: 5d9f2a90adf470088fdfadd6 after 10 minutes","timestamp":"2019-10-10T13:06:48.249Z"}
+{"level":"info","message":"Deleted game with id: 5d9f2abeadf470088fdfadd7 after 10 minutes","timestamp":"2019-10-10T13:07:34.355Z"}
+{"level":"info","message":"Deleted game with id: 5d9f2b51adf470088fdfadd9 after 10 minutes","timestamp":"2019-10-10T13:10:01.502Z"}
+{"level":"info","message":"Deleted game with id: 5d9f2cdbadf470088fdfaddc after 10 minutes","timestamp":"2019-10-10T13:16:35.090Z"}
+{"level":"info","message":"Deleted game with id: 5d9f30b7adf470088fdfadde after 10 minutes","timestamp":"2019-10-10T13:33:03.284Z"}
+{"level":"info","message":"Deleted game with id: 5d9f3186adf470088fdfade2 after 10 minutes","timestamp":"2019-10-10T13:36:30.955Z"}
+{"level":"info","message":"Deleted game with id: 5d9f38f8adf470088fdfade3 after 10 minutes","timestamp":"2019-10-10T14:08:16.732Z"}
+{"level":"info","message":"Deleted game with id: 5d9f3903adf470088fdfade5 after 10 minutes","timestamp":"2019-10-10T14:08:27.485Z"}
+{"level":"info","message":"Deleted game with id: 5d9f42d3adf470088fdfade8 after 10 minutes","timestamp":"2019-10-10T14:50:19.313Z"}
+{"level":"info","message":"Deleted game with id: 5d9f48aeadf470088fdfadea after 10 minutes","timestamp":"2019-10-10T15:15:18.228Z"}
+{"level":"info","message":"Deleted game with id: 5d9f491dadf470088fdfadec after 10 minutes","timestamp":"2019-10-10T15:17:09.996Z"}
+{"level":"info","message":"Deleted game with id: 5d9f4aeeadf470088fdfadee after 10 minutes","timestamp":"2019-10-10T15:24:54.199Z"}
+{"level":"info","message":"Deleted game with id: 5d9f4b29adf470088fdfadef after 10 minutes","timestamp":"2019-10-10T15:25:53.661Z"}
+{"level":"info","message":"Deleted game with id: 5d9f4de6adf470088fdfadf1 after 10 minutes","timestamp":"2019-10-10T15:37:34.706Z"}
+{"message":"No matching document found for id \"5d9f52d8adf470088fdfae00\" version 0 modifiedPaths \"sendedLetters, lifes\"","stack":"VersionError: No matching document found for id \"5d9f52d8adf470088fdfae00\" version 0 modifiedPaths \"sendedLetters, lifes\"\n    at VersionError.MongooseError [as constructor] (/Users/lucas/Mentoring/hangmann-backend/node_modules/mongoose/lib/error/mongooseError.js:10:11)\n    at new VersionError (/Users/lucas/Mentoring/hangmann-backend/node_modules/mongoose/lib/error/version.js:18:17)\n    at generateVersionError (/Users/lucas/Mentoring/hangmann-backend/node_modules/mongoose/lib/model.js:399:10)\n    at model.Model.save (/Users/lucas/Mentoring/hangmann-backend/node_modules/mongoose/lib/model.js:457:28)\n    at router.post (/Users/lucas/Mentoring/hangmann-backend/dist/routes/games.js:182:16)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:189:7)","name":"VersionError","version":0,"modifiedPaths":["sendedLetters","lifes"],"level":"error","timestamp":"2019-10-10T15:48:42.221Z"}
+{"message":"No matching document found for id \"5d9f52e3adf470088fdfae04\" version 2 modifiedPaths \"sendedLetters, guessedLetters\"","stack":"VersionError: No matching document found for id \"5d9f52e3adf470088fdfae04\" version 2 modifiedPaths \"sendedLetters, guessedLetters\"\n    at VersionError.MongooseError [as constructor] (/Users/lucas/Mentoring/hangmann-backend/node_modules/mongoose/lib/error/mongooseError.js:10:11)\n    at new VersionError (/Users/lucas/Mentoring/hangmann-backend/node_modules/mongoose/lib/error/version.js:18:17)\n    at generateVersionError (/Users/lucas/Mentoring/hangmann-backend/node_modules/mongoose/lib/model.js:399:10)\n    at model.Model.save (/Users/lucas/Mentoring/hangmann-backend/node_modules/mongoose/lib/model.js:457:28)\n    at router.post (/Users/lucas/Mentoring/hangmann-backend/dist/routes/games.js:182:16)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:189:7)","name":"VersionError","version":2,"modifiedPaths":["sendedLetters","guessedLetters"],"level":"error","timestamp":"2019-10-10T15:48:52.892Z"}
+{"level":"info","message":"Deleted game with id: 5d9f50e5adf470088fdfadf3 after 10 minutes","timestamp":"2019-10-10T15:50:21.401Z"}
+{"level":"info","message":"Deleted game with id: 5d9f511eadf470088fdfadf5 after 10 minutes","timestamp":"2019-10-10T15:51:18.181Z"}
+{"level":"info","message":"Deleted game with id: 5d9f5182adf470088fdfadf9 after 10 minutes","timestamp":"2019-10-10T15:52:58.677Z"}
+{"level":"info","message":"Deleted game with id: 5d9f52b8adf470088fdfadfb after 10 minutes","timestamp":"2019-10-10T15:58:08.953Z"}
+{"level":"info","message":"Deleted game with id: 5d9f52ccadf470088fdfadfc after 10 minutes","timestamp":"2019-10-10T15:58:28.786Z"}
+{"level":"info","message":"Deleted game with id: 5d9f52d4adf470088fdfadfe after 10 minutes","timestamp":"2019-10-10T15:58:36.281Z"}
+{"level":"info","message":"Deleted game with id: 5d9f52d8adf470088fdfae00 after 10 minutes","timestamp":"2019-10-10T15:58:40.774Z"}
+{"level":"info","message":"Deleted game with id: 5d9f52dfadf470088fdfae02 after 10 minutes","timestamp":"2019-10-10T15:58:47.213Z"}
+{"level":"info","message":"Deleted game with id: 5d9f52edadf470088fdfae05 after 10 minutes","timestamp":"2019-10-10T15:59:01.127Z"}
+{"level":"info","message":"Deleted game with id: 5d9f5592adf470088fdfae07 after 10 minutes","timestamp":"2019-10-10T16:10:18.266Z"}

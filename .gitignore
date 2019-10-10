@@ -5,3 +5,4 @@ config/variables.env
 .env
 dindex.js
 dist/
+./UncaughtExceptons.log
