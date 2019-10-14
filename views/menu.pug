@@ -1,6 +1,6 @@
 nav
     ul
-        each val in ['Api','SysInfo','AddQuote', 'About']       
+        each val in ['Api','SysInfo', 'About']       
             li
                 a(href='/'+val class=(name === val ? "active" : undefined))=val
                 
