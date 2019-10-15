@@ -1,6 +1,7 @@
 const { Quote, validate } = require("../models/quote");
 // const mongoose = require("mongoose");
 const express = require("express");
+var jwtDecode = require("jwt-decode");
 
 import passportManager from "../config/passport";
 // import passport from "../config/passport";
@@ -162,12 +163,19 @@ router.put(`/update`, authenticate, async (req, res) => {
 });
 router.delete(`/delete`, authenticate, async (req, res) => {
   const quote = await Quote.findById({ _id: req.body.id });
+  const decoded = jwtDecode(req.headers.authorization);
+  const { username } = decoded;
   if (!quote) {
     res.status(400).send("No quote with given id");
   } else {
-    await Quote.findByIdAndDelete({ _id: req.body.id });
+    const quote = await Quote.findById({ _id: req.body.id });
+    if (quote.insertAuthor === username) {
+      await Quote.findByIdAndDelete({ _id: req.body.id });
 
-    res.send({ message: "deleted" });
+      res.status(200).send({ message: "deleted" });
+    } else {
+      res.status(400).send("You can delete only your own quotes");
+    }
   }
 });
 module.exports = router;

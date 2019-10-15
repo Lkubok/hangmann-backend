@@ -8,11 +8,12 @@
 2. If you want it to be running on your environment you should have mongoDB server installed
 3. The base db conecctions are set in config/variables
 4. By default it connects to mongoDB on localhost without a password, if you want to user password, please change the variables file (MONGO_URL)
+5. Need to set you .env file like .env.example
 
 ## Starting application
 
 ```
-npm run start
+npm run up
 ```
 
 ## Used technologies
