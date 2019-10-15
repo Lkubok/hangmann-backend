@@ -14,15 +14,16 @@ router.get("/", async (req, res) => {
   const gameScores = await GameScore.find();
   const deadGames = await GameScore.find({ stateOfGame: "dead" });
   const winGames = await GameScore.find({ stateOfGame: "win" });
+  const quickestGame = await GameScore.find()
+    .sort("gameTime")
+    .limit(1);
   const objToSend = {
     quotesCount: quotes.length,
     langs: langs,
     games: gameScores.length,
     deadGames: deadGames.length,
     winGames: winGames.length,
-    quickestGame: await GameScore.find()
-      .sort("gameTime")
-      .limit(1),
+    quickestGame: quickestGame[0],
     quickestWinGames: await GameScore.find({ stateOfGame: "win" })
       .sort("gameTime")
       .limit(3)
