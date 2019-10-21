@@ -1,0 +1,67 @@
+{"level":"info","message":"Listening on port 3001","timestamp":"2019-10-18T08:10:29.854Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-10-18T08:10:29.855Z"}
+{"level":"info","message":"Private server Key: secret","timestamp":"2019-10-18T08:10:29.855Z"}
+{"level":"info","message":"Mongo URL: mongodb://localhost:27017/hangman","timestamp":"2019-10-18T08:10:29.855Z"}
+{"level":"info","message":"Connected to database: mongodb://localhost:27017/hangman with mongoDB server ...","timestamp":"2019-10-18T08:10:29.885Z"}
+{"level":"info","message":"Checking if mongodb://localhost:27017/hangman has any collection ...","timestamp":"2019-10-18T08:10:29.886Z"}
+{"level":"info","message":"Collection exists, quotes not added","timestamp":"2019-10-18T08:10:30.138Z"}
+{"level":"info","message":"Listening on port 3001","timestamp":"2019-10-21T07:34:39.159Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-10-21T07:34:39.160Z"}
+{"level":"info","message":"Private server Key: secret","timestamp":"2019-10-21T07:34:39.160Z"}
+{"level":"info","message":"Mongo URL: mongodb://localhost:27017/hangman","timestamp":"2019-10-21T07:34:39.160Z"}
+{"level":"info","message":"Connected to database: mongodb://localhost:27017/hangman with mongoDB server ...","timestamp":"2019-10-21T07:34:39.193Z"}
+{"level":"info","message":"Checking if mongodb://localhost:27017/hangman has any collection ...","timestamp":"2019-10-21T07:34:39.194Z"}
+{"level":"info","message":"Collection exists, quotes not added","timestamp":"2019-10-21T07:34:39.444Z"}
+{"level":"info","message":"Deleted game with id: 5dad72e2308d000bcc3adc67 after 10 minutes","timestamp":"2019-10-21T09:07:06.584Z"}
+{"level":"info","message":"Deleted game with id: 5dad7303308d000bcc3adc68 after 10 minutes","timestamp":"2019-10-21T09:07:39.231Z"}
+{"level":"info","message":"Deleted game with id: 5dad7342308d000bcc3adc69 after 10 minutes","timestamp":"2019-10-21T09:08:42.039Z"}
+{"level":"info","message":"Deleted game with id: 5dad7371308d000bcc3adc6a after 10 minutes","timestamp":"2019-10-21T09:09:29.501Z"}
+{"level":"info","message":"Deleted game with id: 5dad7565308d000bcc3adc6c after 10 minutes","timestamp":"2019-10-21T09:17:49.896Z"}
+{"level":"info","message":"Deleted game with id: 5dad7622308d000bcc3adc6e after 10 minutes","timestamp":"2019-10-21T09:20:58.765Z"}
+{"level":"info","message":"Deleted game with id: 5dad7a15308d000bcc3adc70 after 10 minutes","timestamp":"2019-10-21T09:37:49.151Z"}
+{"message":"Cannot read property 'quoteId' of null","stack":"TypeError: Cannot read property 'quoteId' of null\n    at router.post (/Users/lucas/Mentoring/hangmann-backend/dist/routes/games.js:135:43)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:189:7)","level":"error","timestamp":"2019-10-21T09:57:16.205Z"}
+{"level":"info","message":"Listening on port 3001","timestamp":"2019-10-21T11:08:29.908Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-10-21T11:08:29.909Z"}
+{"level":"info","message":"Private server Key: secret","timestamp":"2019-10-21T11:08:29.909Z"}
+{"level":"info","message":"Mongo URL: mongodb://localhost:27017/hangman","timestamp":"2019-10-21T11:08:29.909Z"}
+{"level":"info","message":"Connected to database: mongodb://localhost:27017/hangman with mongoDB server ...","timestamp":"2019-10-21T11:08:29.936Z"}
+{"level":"info","message":"Checking if mongodb://localhost:27017/hangman has any collection ...","timestamp":"2019-10-21T11:08:29.937Z"}
+{"level":"info","message":"Collection exists, quotes not added","timestamp":"2019-10-21T11:08:30.189Z"}
+{"level":"info","message":"Listening on port 3001","timestamp":"2019-10-21T11:08:49.468Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-10-21T11:08:49.469Z"}
+{"level":"info","message":"Private server Key: secret","timestamp":"2019-10-21T11:08:49.469Z"}
+{"level":"info","message":"Mongo URL: mongodb://localhost:27017/hangman","timestamp":"2019-10-21T11:08:49.469Z"}
+{"level":"info","message":"Connected to database: mongodb://localhost:27017/hangman with mongoDB server ...","timestamp":"2019-10-21T11:08:49.498Z"}
+{"level":"info","message":"Checking if mongodb://localhost:27017/hangman has any collection ...","timestamp":"2019-10-21T11:08:49.499Z"}
+{"level":"info","message":"Collection exists, quotes not added","timestamp":"2019-10-21T11:08:49.739Z"}
+{"level":"info","message":"Listening on port 3001","timestamp":"2019-10-21T11:11:21.067Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-10-21T11:11:21.068Z"}
+{"level":"info","message":"Private server Key: secret","timestamp":"2019-10-21T11:11:21.068Z"}
+{"level":"info","message":"Mongo URL: mongodb://localhost:27017/hangman","timestamp":"2019-10-21T11:11:21.068Z"}
+{"level":"info","message":"Connected to database: mongodb://localhost:27017/hangman with mongoDB server ...","timestamp":"2019-10-21T11:11:21.117Z"}
+{"level":"info","message":"Checking if mongodb://localhost:27017/hangman has any collection ...","timestamp":"2019-10-21T11:11:21.117Z"}
+{"level":"info","message":"Collection exists, quotes not added","timestamp":"2019-10-21T11:11:21.522Z"}
+{"level":"info","message":"Listening on port 3001","timestamp":"2019-10-21T11:11:28.291Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-10-21T11:11:28.291Z"}
+{"level":"info","message":"Private server Key: secret","timestamp":"2019-10-21T11:11:28.292Z"}
+{"level":"info","message":"Mongo URL: mongodb://localhost:27017/hangman","timestamp":"2019-10-21T11:11:28.292Z"}
+{"level":"info","message":"Connected to database: mongodb://localhost:27017/hangman with mongoDB server ...","timestamp":"2019-10-21T11:11:28.319Z"}
+{"level":"info","message":"Checking if mongodb://localhost:27017/hangman has any collection ...","timestamp":"2019-10-21T11:11:28.319Z"}
+{"level":"info","message":"Collection exists, quotes not added","timestamp":"2019-10-21T11:11:28.576Z"}
+{"message":"Cannot read property 'country' of undefined","stack":"TypeError: Cannot read property 'country' of undefined\n    at signUp (/Users/lucas/Mentoring/hangmann-backend/dist/controllers/auth.js:32:36)\n    at newFn (/Users/lucas/Mentoring/hangmann-backend/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/lucas/Mentoring/hangmann-backend/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/lucas/Mentoring/hangmann-backend/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/lucas/Mentoring/hangmann-backend/node_modules/express/lib/router/route.js:112:3)\n    at newFn (/Users/lucas/Mentoring/hangmann-backend/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/lucas/Mentoring/hangmann-backend/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/lucas/Mentoring/hangmann-backend/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/lucas/Mentoring/hangmann-backend/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/lucas/Mentoring/hangmann-backend/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/lucas/Mentoring/hangmann-backend/node_modules/express/lib/router/index.js:174:3)\n    at router (/Users/lucas/Mentoring/hangmann-backend/node_modules/express/lib/router/index.js:47:12)\n    at newFn (/Users/lucas/Mentoring/hangmann-backend/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/lucas/Mentoring/hangmann-backend/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/lucas/Mentoring/hangmann-backend/node_modules/express/lib/router/index.js:317:13)\n    at /Users/lucas/Mentoring/hangmann-backend/node_modules/express/lib/router/index.js:284:7","level":"error","timestamp":"2019-10-21T11:11:44.411Z"}
+{"message":"Cannot read property 'country' of undefined","stack":"TypeError: Cannot read property 'country' of undefined\n    at signUp (/Users/lucas/Mentoring/hangmann-backend/dist/controllers/auth.js:32:36)\n    at newFn (/Users/lucas/Mentoring/hangmann-backend/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/lucas/Mentoring/hangmann-backend/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/lucas/Mentoring/hangmann-backend/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/lucas/Mentoring/hangmann-backend/node_modules/express/lib/router/route.js:112:3)\n    at newFn (/Users/lucas/Mentoring/hangmann-backend/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/lucas/Mentoring/hangmann-backend/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/lucas/Mentoring/hangmann-backend/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/lucas/Mentoring/hangmann-backend/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/lucas/Mentoring/hangmann-backend/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/lucas/Mentoring/hangmann-backend/node_modules/express/lib/router/index.js:174:3)\n    at router (/Users/lucas/Mentoring/hangmann-backend/node_modules/express/lib/router/index.js:47:12)\n    at newFn (/Users/lucas/Mentoring/hangmann-backend/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/lucas/Mentoring/hangmann-backend/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/lucas/Mentoring/hangmann-backend/node_modules/express/lib/router/index.js:317:13)\n    at /Users/lucas/Mentoring/hangmann-backend/node_modules/express/lib/router/index.js:284:7","level":"error","timestamp":"2019-10-21T11:11:51.387Z"}
+{"message":"Cannot read property 'country' of undefined","stack":"TypeError: Cannot read property 'country' of undefined\n    at signUp (/Users/lucas/Mentoring/hangmann-backend/dist/controllers/auth.js:32:36)\n    at newFn (/Users/lucas/Mentoring/hangmann-backend/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/lucas/Mentoring/hangmann-backend/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/lucas/Mentoring/hangmann-backend/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/lucas/Mentoring/hangmann-backend/node_modules/express/lib/router/route.js:112:3)\n    at newFn (/Users/lucas/Mentoring/hangmann-backend/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/lucas/Mentoring/hangmann-backend/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/lucas/Mentoring/hangmann-backend/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/lucas/Mentoring/hangmann-backend/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/lucas/Mentoring/hangmann-backend/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/lucas/Mentoring/hangmann-backend/node_modules/express/lib/router/index.js:174:3)\n    at router (/Users/lucas/Mentoring/hangmann-backend/node_modules/express/lib/router/index.js:47:12)\n    at newFn (/Users/lucas/Mentoring/hangmann-backend/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/lucas/Mentoring/hangmann-backend/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/lucas/Mentoring/hangmann-backend/node_modules/express/lib/router/index.js:317:13)\n    at /Users/lucas/Mentoring/hangmann-backend/node_modules/express/lib/router/index.js:284:7","level":"error","timestamp":"2019-10-21T11:12:54.310Z"}
+{"level":"info","message":"Listening on port 3001","timestamp":"2019-10-21T11:13:32.100Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-10-21T11:13:32.101Z"}
+{"level":"info","message":"Private server Key: secret","timestamp":"2019-10-21T11:13:32.102Z"}
+{"level":"info","message":"Mongo URL: mongodb://localhost:27017/hangman","timestamp":"2019-10-21T11:13:32.102Z"}
+{"level":"info","message":"Connected to database: mongodb://localhost:27017/hangman with mongoDB server ...","timestamp":"2019-10-21T11:13:32.131Z"}
+{"level":"info","message":"Checking if mongodb://localhost:27017/hangman has any collection ...","timestamp":"2019-10-21T11:13:32.131Z"}
+{"level":"info","message":"Collection exists, quotes not added","timestamp":"2019-10-21T11:13:32.374Z"}
+{"level":"info","message":"Listening on port 3001","timestamp":"2019-10-21T11:13:37.994Z"}
+{"level":"info","message":"Running in environment: development","timestamp":"2019-10-21T11:13:37.995Z"}
+{"level":"info","message":"Private server Key: secret","timestamp":"2019-10-21T11:13:37.995Z"}
+{"level":"info","message":"Mongo URL: mongodb://localhost:27017/hangman","timestamp":"2019-10-21T11:13:37.995Z"}
+{"level":"info","message":"Connected to database: mongodb://localhost:27017/hangman with mongoDB server ...","timestamp":"2019-10-21T11:13:38.026Z"}
+{"level":"info","message":"Checking if mongodb://localhost:27017/hangman has any collection ...","timestamp":"2019-10-21T11:13:38.026Z"}
+{"level":"info","message":"Collection exists, quotes not added","timestamp":"2019-10-21T11:13:38.277Z"}

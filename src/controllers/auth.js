@@ -13,7 +13,11 @@ class Auth {
         firstname: req.body.firstname,
         lastname: req.body.lastname,
         email: req.body.email,
-        age: req.body.age
+        age: req.body.age,
+        address: {
+          country: req.body.address.country,
+          city: req.body.address.city
+        }
       });
       // save the user
       newUser.save(err => {

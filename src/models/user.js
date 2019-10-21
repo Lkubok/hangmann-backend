@@ -29,6 +29,16 @@ var UserSchema = new Schema(
     age: {
       type: String,
       required: true
+    },
+    address: {
+      country: {
+        type: String,
+        required: true
+      },
+      city: {
+        type: String,
+        required: true
+      }
     }
   },
   {
